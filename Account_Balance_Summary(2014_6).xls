@@ -1,0 +1,313 @@
+	<table border="1" cellpadding="1" cellspacing="0" width="100%">
+		<thead>
+		<tr>
+			<th class="tac">#</th>
+			<th>Journal Number</th>
+			<th>Description</th>
+			<th>This Month Debit</th>
+			<th>This Month Credit</th>                
+			<th>Balance</th>                
+		</tr>
+		</thead>
+		<tbody>
+	            		<tr>
+                		<td align="center">1</td>
+                    	<td colspan="5">1000-000-00						Owner's/Shareholder's capital</td>
+                	</tr>
+                 	 
+                        	<tr>
+                            	<td></td>
+                                <td></td>
+                                <td>Closing Balance</td>
+                                <td></td>
+                                <td></td>
+                                <td>-1000000</td>
+                            s</tr>
+                              		<tr>
+                		<td align="center">2</td>
+                    	<td colspan="5">2000-200-10						Manufacturing Equipment at Cost</td>
+                	</tr>
+                 	 
+                        	<tr>
+                            	<td></td>
+                                <td></td>
+                                <td>Closing Balance</td>
+                                <td></td>
+                                <td></td>
+                                <td>100000</td>
+                            s</tr>
+                              		<tr>
+                		<td align="center">3</td>
+                    	<td colspan="5">2000-400-20						Office Equipment Accum Dep'n</td>
+                	</tr>
+                 	 
+                        	<tr>
+                            	<td></td>
+                                <td></td>
+                                <td>Closing Balance</td>
+                                <td></td>
+                                <td></td>
+                                <td>-20000</td>
+                            s</tr>
+                              		<tr>
+                		<td align="center">4</td>
+                    	<td colspan="5">2100-000-00						Trade Receivable</td>
+                	</tr>
+                 	 
+                        	<tr>
+                            	<td></td>
+                                <td></td>
+                                <td>Closing Balance</td>
+                                <td></td>
+                                <td></td>
+                                <td>151800</td>
+                            s</tr>
+                              		<tr>
+                		<td align="center">5</td>
+                    	<td colspan="5">2200-100-00						Bank</td>
+                	</tr>
+                 	 
+                        	<tr>
+                            	<td></td>
+                                <td></td>
+                                <td>Closing Balance</td>
+                                <td></td>
+                                <td></td>
+                                <td>941750</td>
+                            s</tr>
+                              		<tr>
+                		<td align="center">6</td>
+                    	<td colspan="5">2600-100-00						GST Input Tax</td>
+                	</tr>
+                 	 
+                        	<tr>
+                            	<td></td>
+                                <td></td>
+                                <td>Closing Balance</td>
+                                <td></td>
+                                <td></td>
+                                <td>600</td>
+                            s</tr>
+                              		<tr>
+                		<td align="center">7</td>
+                    	<td colspan="5">3000-000-00						Trade Payable</td>
+                	</tr>
+                 	 
+                        	<tr>
+                            	<td></td>
+                                <td></td>
+                                <td>Closing Balance</td>
+                                <td></td>
+                                <td></td>
+                                <td>-50600</td>
+                            s</tr>
+                              		<tr>
+                		<td align="center">8</td>
+                    	<td colspan="5">3300-100-00						GST Output Tax</td>
+                	</tr>
+                 	 
+                        	<tr>
+                            	<td></td>
+                                <td></td>
+                                <td>Closing Balance</td>
+                                <td></td>
+                                <td></td>
+                                <td>-1800</td>
+                            s</tr>
+                              		<tr>
+                		<td align="center">9</td>
+                    	<td colspan="5">4000-000-00						Sales</td>
+                	</tr>
+                 	 
+                        	<tr>
+                            	<td></td>
+                                <td></td>
+                                <td>Closing Balance</td>
+                                <td></td>
+                                <td></td>
+                                <td>-300000</td>
+                            s</tr>
+                              		<tr>
+                		<td align="center">10</td>
+                    	<td colspan="5">4800-000-00						Miscellaneous Income</td>
+                	</tr>
+                 	 
+                        	<tr>
+                            	<td></td>
+                                <td></td>
+                                <td>Closing Balance</td>
+                                <td></td>
+                                <td></td>
+                                <td>0</td>
+                            s</tr>
+                              		<tr>
+                		<td align="center">11</td>
+                    	<td colspan="5">5000-000-00						Cost of Goods Sold</td>
+                	</tr>
+                 	 
+                        	<tr>
+                            	<td></td>
+                                <td></td>
+                                <td>Closing Balance</td>
+                                <td></td>
+                                <td></td>
+                                <td>100000</td>
+                            s</tr>
+                              		<tr>
+                		<td align="center">12</td>
+                    	<td colspan="5">7100-000-00						Discount Received</td>
+                	</tr>
+                 	 
+                        	<tr>
+                            	<td></td>
+                                <td></td>
+                                <td>Closing Balance</td>
+                                <td></td>
+                                <td></td>
+                                <td>-2300</td>
+                            s</tr>
+                              		<tr>
+                		<td align="center">13</td>
+                    	<td colspan="5">8100-200-00						Depreciation Expense</td>
+                	</tr>
+                 	 
+                        	<tr>
+                            	<td></td>
+                                <td></td>
+                                <td>Closing Balance</td>
+                                <td></td>
+                                <td></td>
+                                <td>20000</td>
+                            s</tr>
+                              		<tr>
+                		<td align="center">14</td>
+                    	<td colspan="5">8200-000-00						Operation Expenses</td>
+                	</tr>
+                 	 
+                        	<tr>
+                            	<td></td>
+                                <td></td>
+                                <td>Closing Balance</td>
+                                <td></td>
+                                <td></td>
+                                <td>500</td>
+                            s</tr>
+                              		<tr>
+                		<td align="center">15</td>
+                    	<td colspan="5">8200-110-00						Cleaning	Expenses</td>
+                	</tr>
+                 	 
+                        	<tr>
+                            	<td></td>
+                                <td></td>
+                                <td>Closing Balance</td>
+                                <td></td>
+                                <td></td>
+                                <td>1500</td>
+                            s</tr>
+                              		<tr>
+                		<td align="center">16</td>
+                    	<td colspan="5">8200-120-00						Postage & Delivery</td>
+                	</tr>
+                 	 
+                        	<tr>
+                            	<td></td>
+                                <td></td>
+                                <td>Closing Balance</td>
+                                <td></td>
+                                <td></td>
+                                <td>300</td>
+                            s</tr>
+                              		<tr>
+                		<td align="center">17</td>
+                    	<td colspan="5">8200-130-00						Printing</td>
+                	</tr>
+                 	 
+                        	<tr>
+                            	<td></td>
+                                <td></td>
+                                <td>Closing Balance</td>
+                                <td></td>
+                                <td></td>
+                                <td>200</td>
+                            s</tr>
+                              		<tr>
+                		<td align="center">18</td>
+                    	<td colspan="5">8200-140-00						Rent</td>
+                	</tr>
+                 	 
+                        	<tr>
+                            	<td></td>
+                                <td></td>
+                                <td>Closing Balance</td>
+                                <td></td>
+                                <td></td>
+                                <td>4500</td>
+                            s</tr>
+                              		<tr>
+                		<td align="center">19</td>
+                    	<td colspan="5">8200-160-00						Telephone</td>
+                	</tr>
+                 	 
+                        	<tr>
+                            	<td></td>
+                                <td></td>
+                                <td>Closing Balance</td>
+                                <td></td>
+                                <td></td>
+                                <td>150</td>
+                            s</tr>
+                              		<tr>
+                		<td align="center">20</td>
+                    	<td colspan="5">8200-170-00						Water</td>
+                	</tr>
+                 	 
+                        	<tr>
+                            	<td></td>
+                                <td></td>
+                                <td>Closing Balance</td>
+                                <td></td>
+                                <td></td>
+                                <td>100</td>
+                            s</tr>
+                              		<tr>
+                		<td align="center">21</td>
+                    	<td colspan="5">8200-190-30						Wages & Salaries </td>
+                	</tr>
+                 	 
+                        	<tr>
+                            	<td></td>
+                                <td></td>
+                                <td>Closing Balance</td>
+                                <td></td>
+                                <td></td>
+                                <td>55000</td>
+                            s</tr>
+                              		<tr>
+                		<td align="center">22</td>
+                    	<td colspan="5">8400-000-00						Discounts Given</td>
+                	</tr>
+                 	 
+                        	<tr>
+                            	<td></td>
+                                <td></td>
+                                <td>Closing Balance</td>
+                                <td></td>
+                                <td></td>
+                                <td>-1500</td>
+                            s</tr>
+                              		<tr>
+                		<td align="center">23</td>
+                    	<td colspan="5">8700-000-00						Exchange Difference</td>
+                	</tr>
+                 	 
+                        	<tr>
+                            	<td></td>
+                                <td></td>
+                                <td>Closing Balance</td>
+                                <td></td>
+                                <td></td>
+                                <td>-200</td>
+                            s</tr>
+                  		</tbody>
+	</table>                                         

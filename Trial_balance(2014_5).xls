@@ -1,0 +1,229 @@
+	<table border="1" cellpadding="1" cellspacing="0" width="100%">
+                	<thead>
+                    <tr>
+            			<th class="tac">#</th>
+                        <th>Account Number</th>
+                        <th>Description</th>
+    			      	<th class="tac">Year To Date Debit</th>
+    			      	<th class="tac">Year To Date Credit</th>
+                        <th class="tac">This Month Debit</th>
+                        <th class="tac">This Month Credit</th>
+            		</tr>
+        			</thead>
+       				 <tbody>                            <tr>
+                				<td class="tac">1</td>
+                    			<td>1000-000-00</td>
+                    			<td>Owner's/Shareholder's capital</td>
+                    			<td class="tar">0</td>
+                    			<td class="tar">1000000</td>
+                    			<td class="tar">0</td>
+                    			<td class="tar">1000000</td>
+                            </tr>
+                                                            <tr>
+                				<td class="tac">2</td>
+                    			<td>2000-200-10</td>
+                    			<td>Manufacturing Equipment at Cost</td>
+                    			<td class="tar">100000</td>
+                    			<td class="tar">0</td>
+                    			<td class="tar">100000</td>
+                    			<td class="tar">0</td>
+                            </tr>
+                                                            <tr>
+                				<td class="tac">3</td>
+                    			<td>2000-400-20</td>
+                    			<td>Office Equipment Accum Dep'n</td>
+                    			<td class="tar">0</td>
+                    			<td class="tar">20000</td>
+                    			<td class="tar">0</td>
+                    			<td class="tar">20000</td>
+                            </tr>
+                                                            <tr>
+                				<td class="tac">4</td>
+                    			<td>2100-000-00</td>
+                    			<td>Trade Receivable</td>
+                    			<td class="tar">301800</td>
+                    			<td class="tar">150000</td>
+                    			<td class="tar">301800</td>
+                    			<td class="tar">150000</td>
+                            </tr>
+                                                            <tr>
+                				<td class="tac">5</td>
+                    			<td>2200-100-00</td>
+                    			<td>Bank</td>
+                    			<td class="tar">1154000</td>
+                    			<td class="tar">212250</td>
+                    			<td class="tar">1154000</td>
+                    			<td class="tar">212250</td>
+                            </tr>
+                                                            <tr>
+                				<td class="tac">6</td>
+                    			<td>2600-100-00</td>
+                    			<td>GST Input Tax</td>
+                    			<td class="tar">600</td>
+                    			<td class="tar">0</td>
+                    			<td class="tar">600</td>
+                    			<td class="tar">0</td>
+                            </tr>
+                                                            <tr>
+                				<td class="tac">7</td>
+                    			<td>3000-000-00</td>
+                    			<td>Trade Payable</td>
+                    			<td class="tar">50000</td>
+                    			<td class="tar">100600</td>
+                    			<td class="tar">50000</td>
+                    			<td class="tar">100600</td>
+                            </tr>
+                                                            <tr>
+                				<td class="tac">8</td>
+                    			<td>3300-100-00</td>
+                    			<td>GST Output Tax</td>
+                    			<td class="tar">0</td>
+                    			<td class="tar">1800</td>
+                    			<td class="tar">0</td>
+                    			<td class="tar">1800</td>
+                            </tr>
+                                                            <tr>
+                				<td class="tac">9</td>
+                    			<td>4000-000-00</td>
+                    			<td>Sales</td>
+                    			<td class="tar">0</td>
+                    			<td class="tar">300000</td>
+                    			<td class="tar">0</td>
+                    			<td class="tar">300000</td>
+                            </tr>
+                                                            <tr>
+                				<td class="tac">10</td>
+                    			<td>4800-000-00</td>
+                    			<td>Miscellaneous Income</td>
+                    			<td class="tar">3800</td>
+                    			<td class="tar">3800</td>
+                    			<td class="tar">3800</td>
+                    			<td class="tar">3800</td>
+                            </tr>
+                                                            <tr>
+                				<td class="tac">11</td>
+                    			<td>5000-000-00</td>
+                    			<td>Cost of Goods Sold</td>
+                    			<td class="tar">100000</td>
+                    			<td class="tar">0</td>
+                    			<td class="tar">100000</td>
+                    			<td class="tar">0</td>
+                            </tr>
+                                                            <tr>
+                				<td class="tac">12</td>
+                    			<td>7100-000-00</td>
+                    			<td>Discount Received</td>
+                    			<td class="tar">0</td>
+                    			<td class="tar">2300</td>
+                    			<td class="tar">0</td>
+                    			<td class="tar">2300</td>
+                            </tr>
+                                                            <tr>
+                				<td class="tac">13</td>
+                    			<td>8100-200-00</td>
+                    			<td>Depreciation Expense</td>
+                    			<td class="tar">20000</td>
+                    			<td class="tar">0</td>
+                    			<td class="tar">20000</td>
+                    			<td class="tar">0</td>
+                            </tr>
+                                                            <tr>
+                				<td class="tac">14</td>
+                    			<td>8200-000-00</td>
+                    			<td>Operation Expenses</td>
+                    			<td class="tar">500</td>
+                    			<td class="tar">0</td>
+                    			<td class="tar">500</td>
+                    			<td class="tar">0</td>
+                            </tr>
+                                                            <tr>
+                				<td class="tac">15</td>
+                    			<td>8200-110-00</td>
+                    			<td>Cleaning	Expenses</td>
+                    			<td class="tar">1500</td>
+                    			<td class="tar">0</td>
+                    			<td class="tar">1500</td>
+                    			<td class="tar">0</td>
+                            </tr>
+                                                            <tr>
+                				<td class="tac">16</td>
+                    			<td>8200-120-00</td>
+                    			<td>Postage & Delivery</td>
+                    			<td class="tar">300</td>
+                    			<td class="tar">0</td>
+                    			<td class="tar">300</td>
+                    			<td class="tar">0</td>
+                            </tr>
+                                                            <tr>
+                				<td class="tac">17</td>
+                    			<td>8200-130-00</td>
+                    			<td>Printing</td>
+                    			<td class="tar">200</td>
+                    			<td class="tar">0</td>
+                    			<td class="tar">200</td>
+                    			<td class="tar">0</td>
+                            </tr>
+                                                            <tr>
+                				<td class="tac">18</td>
+                    			<td>8200-140-00</td>
+                    			<td>Rent</td>
+                    			<td class="tar">4500</td>
+                    			<td class="tar">0</td>
+                    			<td class="tar">4500</td>
+                    			<td class="tar">0</td>
+                            </tr>
+                                                            <tr>
+                				<td class="tac">19</td>
+                    			<td>8200-160-00</td>
+                    			<td>Telephone</td>
+                    			<td class="tar">150</td>
+                    			<td class="tar">0</td>
+                    			<td class="tar">150</td>
+                    			<td class="tar">0</td>
+                            </tr>
+                                                            <tr>
+                				<td class="tac">20</td>
+                    			<td>8200-170-00</td>
+                    			<td>Water</td>
+                    			<td class="tar">100</td>
+                    			<td class="tar">0</td>
+                    			<td class="tar">100</td>
+                    			<td class="tar">0</td>
+                            </tr>
+                                                            <tr>
+                				<td class="tac">21</td>
+                    			<td>8200-190-30</td>
+                    			<td>Wages & Salaries </td>
+                    			<td class="tar">55000</td>
+                    			<td class="tar">0</td>
+                    			<td class="tar">55000</td>
+                    			<td class="tar">0</td>
+                            </tr>
+                                                            <tr>
+                				<td class="tac">22</td>
+                    			<td>8400-000-00</td>
+                    			<td>Discounts Given</td>
+                    			<td class="tar">0</td>
+                    			<td class="tar">1500</td>
+                    			<td class="tar">0</td>
+                    			<td class="tar">1500</td>
+                            </tr>
+                                                            <tr>
+                				<td class="tac">23</td>
+                    			<td>8700-000-00</td>
+                    			<td>Exchange Difference</td>
+                    			<td class="tar">0</td>
+                    			<td class="tar">200</td>
+                    			<td class="tar">0</td>
+                    			<td class="tar">200</td>
+                            </tr>
+                                                            <tr>
+                				<td class="tac"></td>
+                    			<td colspan="2" class="tac"><h4>Total</h4></td>
+                    			<td class="tar">1792450</td>
+                    			<td class="tar">1792450</td>
+                    			<td class="tar">1792450</td>
+                    			<td class="tar">1792450</td>
+                            </tr>
+										</tbody>
+			</table>                                         

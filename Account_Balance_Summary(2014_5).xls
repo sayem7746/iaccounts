@@ -1,0 +1,566 @@
+	<table border="1" cellpadding="1" cellspacing="0" width="100%">
+		<thead>
+		<tr>
+			<th class="tac">#</th>
+			<th>Journal Number</th>
+			<th>Description</th>
+			<th>This Month Debit</th>
+			<th>This Month Credit</th>                
+			<th>Balance</th>                
+		</tr>
+		</thead>
+		<tbody>
+	            		<tr>
+                		<td align="center">1</td>
+                    	<td colspan="5">&nbsp;&nbsp;1000-000-00&nbsp;&nbsp;&nbsp;&nbsp;
+						Owner's/Shareholder's capital</td>
+                		<!-- td class="tar"><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined property: stdClass::$aset_book_value</p>
+<p>Filename: reports/accountsummary_excel.php</p>
+<p>Line Number: 23</p>
+
+</div>0.00</td -->
+                	</tr>
+                 	 
+                        	<tr>
+                            	<td></td>
+                                <td></td>
+                                <td>&nbsp;&nbsp;Closing Balance</td>
+                                <td></td>
+                                <td></td>
+                                <td class="tar">0.00&nbsp;&nbsp;</td>
+                            s</tr>
+                              		<tr>
+                		<td align="center">2</td>
+                    	<td colspan="5">&nbsp;&nbsp;2000-200-10&nbsp;&nbsp;&nbsp;&nbsp;
+						Manufacturing Equipment at Cost</td>
+                		<!-- td class="tar"><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined property: stdClass::$aset_book_value</p>
+<p>Filename: reports/accountsummary_excel.php</p>
+<p>Line Number: 23</p>
+
+</div>0.00</td -->
+                	</tr>
+                 	 
+                        	<tr>
+                            	<td></td>
+                                <td></td>
+                                <td>&nbsp;&nbsp;Closing Balance</td>
+                                <td></td>
+                                <td></td>
+                                <td class="tar">0.00&nbsp;&nbsp;</td>
+                            s</tr>
+                              		<tr>
+                		<td align="center">3</td>
+                    	<td colspan="5">&nbsp;&nbsp;2000-400-20&nbsp;&nbsp;&nbsp;&nbsp;
+						Office Equipment Accum Dep'n</td>
+                		<!-- td class="tar"><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined property: stdClass::$aset_book_value</p>
+<p>Filename: reports/accountsummary_excel.php</p>
+<p>Line Number: 23</p>
+
+</div>0.00</td -->
+                	</tr>
+                 	 
+                        	<tr>
+                            	<td></td>
+                                <td></td>
+                                <td>&nbsp;&nbsp;Closing Balance</td>
+                                <td></td>
+                                <td></td>
+                                <td class="tar">0.00&nbsp;&nbsp;</td>
+                            s</tr>
+                              		<tr>
+                		<td align="center">4</td>
+                    	<td colspan="5">&nbsp;&nbsp;2100-000-00&nbsp;&nbsp;&nbsp;&nbsp;
+						Trade Receivable</td>
+                		<!-- td class="tar"><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined property: stdClass::$aset_book_value</p>
+<p>Filename: reports/accountsummary_excel.php</p>
+<p>Line Number: 23</p>
+
+</div>0.00</td -->
+                	</tr>
+                 	 
+                        	<tr>
+                            	<td></td>
+                                <td></td>
+                                <td>&nbsp;&nbsp;Closing Balance</td>
+                                <td></td>
+                                <td></td>
+                                <td class="tar">0.00&nbsp;&nbsp;</td>
+                            s</tr>
+                              		<tr>
+                		<td align="center">5</td>
+                    	<td colspan="5">&nbsp;&nbsp;2200-100-00&nbsp;&nbsp;&nbsp;&nbsp;
+						Bank</td>
+                		<!-- td class="tar"><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined property: stdClass::$aset_book_value</p>
+<p>Filename: reports/accountsummary_excel.php</p>
+<p>Line Number: 23</p>
+
+</div>0.00</td -->
+                	</tr>
+                 	 
+                        	<tr>
+                            	<td></td>
+                                <td></td>
+                                <td>&nbsp;&nbsp;Closing Balance</td>
+                                <td></td>
+                                <td></td>
+                                <td class="tar">0.00&nbsp;&nbsp;</td>
+                            s</tr>
+                              		<tr>
+                		<td align="center">6</td>
+                    	<td colspan="5">&nbsp;&nbsp;2600-100-00&nbsp;&nbsp;&nbsp;&nbsp;
+						GST Input Tax</td>
+                		<!-- td class="tar"><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined property: stdClass::$aset_book_value</p>
+<p>Filename: reports/accountsummary_excel.php</p>
+<p>Line Number: 23</p>
+
+</div>0.00</td -->
+                	</tr>
+                 	 
+                        	<tr>
+                            	<td></td>
+                                <td></td>
+                                <td>&nbsp;&nbsp;Closing Balance</td>
+                                <td></td>
+                                <td></td>
+                                <td class="tar">0.00&nbsp;&nbsp;</td>
+                            s</tr>
+                              		<tr>
+                		<td align="center">7</td>
+                    	<td colspan="5">&nbsp;&nbsp;3000-000-00&nbsp;&nbsp;&nbsp;&nbsp;
+						Trade Payable</td>
+                		<!-- td class="tar"><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined property: stdClass::$aset_book_value</p>
+<p>Filename: reports/accountsummary_excel.php</p>
+<p>Line Number: 23</p>
+
+</div>0.00</td -->
+                	</tr>
+                 	 
+                        	<tr>
+                            	<td></td>
+                                <td></td>
+                                <td>&nbsp;&nbsp;Closing Balance</td>
+                                <td></td>
+                                <td></td>
+                                <td class="tar">0.00&nbsp;&nbsp;</td>
+                            s</tr>
+                              		<tr>
+                		<td align="center">8</td>
+                    	<td colspan="5">&nbsp;&nbsp;3300-100-00&nbsp;&nbsp;&nbsp;&nbsp;
+						GST Output Tax</td>
+                		<!-- td class="tar"><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined property: stdClass::$aset_book_value</p>
+<p>Filename: reports/accountsummary_excel.php</p>
+<p>Line Number: 23</p>
+
+</div>0.00</td -->
+                	</tr>
+                 	 
+                        	<tr>
+                            	<td></td>
+                                <td></td>
+                                <td>&nbsp;&nbsp;Closing Balance</td>
+                                <td></td>
+                                <td></td>
+                                <td class="tar">0.00&nbsp;&nbsp;</td>
+                            s</tr>
+                              		<tr>
+                		<td align="center">9</td>
+                    	<td colspan="5">&nbsp;&nbsp;4000-000-00&nbsp;&nbsp;&nbsp;&nbsp;
+						Sales</td>
+                		<!-- td class="tar"><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined property: stdClass::$aset_book_value</p>
+<p>Filename: reports/accountsummary_excel.php</p>
+<p>Line Number: 23</p>
+
+</div>0.00</td -->
+                	</tr>
+                 	 
+                        	<tr>
+                            	<td></td>
+                                <td></td>
+                                <td>&nbsp;&nbsp;Closing Balance</td>
+                                <td></td>
+                                <td></td>
+                                <td class="tar">0.00&nbsp;&nbsp;</td>
+                            s</tr>
+                              		<tr>
+                		<td align="center">10</td>
+                    	<td colspan="5">&nbsp;&nbsp;4800-000-00&nbsp;&nbsp;&nbsp;&nbsp;
+						Miscellaneous Income</td>
+                		<!-- td class="tar"><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined property: stdClass::$aset_book_value</p>
+<p>Filename: reports/accountsummary_excel.php</p>
+<p>Line Number: 23</p>
+
+</div>0.00</td -->
+                	</tr>
+                 	 
+                        	<tr>
+                            	<td></td>
+                                <td></td>
+                                <td>&nbsp;&nbsp;Closing Balance</td>
+                                <td></td>
+                                <td></td>
+                                <td class="tar">0.00&nbsp;&nbsp;</td>
+                            s</tr>
+                              		<tr>
+                		<td align="center">11</td>
+                    	<td colspan="5">&nbsp;&nbsp;5000-000-00&nbsp;&nbsp;&nbsp;&nbsp;
+						Cost of Goods Sold</td>
+                		<!-- td class="tar"><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined property: stdClass::$aset_book_value</p>
+<p>Filename: reports/accountsummary_excel.php</p>
+<p>Line Number: 23</p>
+
+</div>0.00</td -->
+                	</tr>
+                 	 
+                        	<tr>
+                            	<td></td>
+                                <td></td>
+                                <td>&nbsp;&nbsp;Closing Balance</td>
+                                <td></td>
+                                <td></td>
+                                <td class="tar">0.00&nbsp;&nbsp;</td>
+                            s</tr>
+                              		<tr>
+                		<td align="center">12</td>
+                    	<td colspan="5">&nbsp;&nbsp;7100-000-00&nbsp;&nbsp;&nbsp;&nbsp;
+						Discount Received</td>
+                		<!-- td class="tar"><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined property: stdClass::$aset_book_value</p>
+<p>Filename: reports/accountsummary_excel.php</p>
+<p>Line Number: 23</p>
+
+</div>0.00</td -->
+                	</tr>
+                 	 
+                        	<tr>
+                            	<td></td>
+                                <td></td>
+                                <td>&nbsp;&nbsp;Closing Balance</td>
+                                <td></td>
+                                <td></td>
+                                <td class="tar">0.00&nbsp;&nbsp;</td>
+                            s</tr>
+                              		<tr>
+                		<td align="center">13</td>
+                    	<td colspan="5">&nbsp;&nbsp;8100-200-00&nbsp;&nbsp;&nbsp;&nbsp;
+						Depreciation Expense</td>
+                		<!-- td class="tar"><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined property: stdClass::$aset_book_value</p>
+<p>Filename: reports/accountsummary_excel.php</p>
+<p>Line Number: 23</p>
+
+</div>0.00</td -->
+                	</tr>
+                 	 
+                        	<tr>
+                            	<td></td>
+                                <td></td>
+                                <td>&nbsp;&nbsp;Closing Balance</td>
+                                <td></td>
+                                <td></td>
+                                <td class="tar">0.00&nbsp;&nbsp;</td>
+                            s</tr>
+                              		<tr>
+                		<td align="center">14</td>
+                    	<td colspan="5">&nbsp;&nbsp;8200-000-00&nbsp;&nbsp;&nbsp;&nbsp;
+						Operation Expenses</td>
+                		<!-- td class="tar"><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined property: stdClass::$aset_book_value</p>
+<p>Filename: reports/accountsummary_excel.php</p>
+<p>Line Number: 23</p>
+
+</div>0.00</td -->
+                	</tr>
+                 	 
+                        	<tr>
+                            	<td></td>
+                                <td></td>
+                                <td>&nbsp;&nbsp;Closing Balance</td>
+                                <td></td>
+                                <td></td>
+                                <td class="tar">0.00&nbsp;&nbsp;</td>
+                            s</tr>
+                              		<tr>
+                		<td align="center">15</td>
+                    	<td colspan="5">&nbsp;&nbsp;8200-110-00&nbsp;&nbsp;&nbsp;&nbsp;
+						Cleaning	Expenses</td>
+                		<!-- td class="tar"><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined property: stdClass::$aset_book_value</p>
+<p>Filename: reports/accountsummary_excel.php</p>
+<p>Line Number: 23</p>
+
+</div>0.00</td -->
+                	</tr>
+                 	 
+                        	<tr>
+                            	<td></td>
+                                <td></td>
+                                <td>&nbsp;&nbsp;Closing Balance</td>
+                                <td></td>
+                                <td></td>
+                                <td class="tar">0.00&nbsp;&nbsp;</td>
+                            s</tr>
+                              		<tr>
+                		<td align="center">16</td>
+                    	<td colspan="5">&nbsp;&nbsp;8200-120-00&nbsp;&nbsp;&nbsp;&nbsp;
+						Postage & Delivery</td>
+                		<!-- td class="tar"><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined property: stdClass::$aset_book_value</p>
+<p>Filename: reports/accountsummary_excel.php</p>
+<p>Line Number: 23</p>
+
+</div>0.00</td -->
+                	</tr>
+                 	 
+                        	<tr>
+                            	<td></td>
+                                <td></td>
+                                <td>&nbsp;&nbsp;Closing Balance</td>
+                                <td></td>
+                                <td></td>
+                                <td class="tar">0.00&nbsp;&nbsp;</td>
+                            s</tr>
+                              		<tr>
+                		<td align="center">17</td>
+                    	<td colspan="5">&nbsp;&nbsp;8200-130-00&nbsp;&nbsp;&nbsp;&nbsp;
+						Printing</td>
+                		<!-- td class="tar"><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined property: stdClass::$aset_book_value</p>
+<p>Filename: reports/accountsummary_excel.php</p>
+<p>Line Number: 23</p>
+
+</div>0.00</td -->
+                	</tr>
+                 	 
+                        	<tr>
+                            	<td></td>
+                                <td></td>
+                                <td>&nbsp;&nbsp;Closing Balance</td>
+                                <td></td>
+                                <td></td>
+                                <td class="tar">0.00&nbsp;&nbsp;</td>
+                            s</tr>
+                              		<tr>
+                		<td align="center">18</td>
+                    	<td colspan="5">&nbsp;&nbsp;8200-140-00&nbsp;&nbsp;&nbsp;&nbsp;
+						Rent</td>
+                		<!-- td class="tar"><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined property: stdClass::$aset_book_value</p>
+<p>Filename: reports/accountsummary_excel.php</p>
+<p>Line Number: 23</p>
+
+</div>0.00</td -->
+                	</tr>
+                 	 
+                        	<tr>
+                            	<td></td>
+                                <td></td>
+                                <td>&nbsp;&nbsp;Closing Balance</td>
+                                <td></td>
+                                <td></td>
+                                <td class="tar">0.00&nbsp;&nbsp;</td>
+                            s</tr>
+                              		<tr>
+                		<td align="center">19</td>
+                    	<td colspan="5">&nbsp;&nbsp;8200-160-00&nbsp;&nbsp;&nbsp;&nbsp;
+						Telephone</td>
+                		<!-- td class="tar"><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined property: stdClass::$aset_book_value</p>
+<p>Filename: reports/accountsummary_excel.php</p>
+<p>Line Number: 23</p>
+
+</div>0.00</td -->
+                	</tr>
+                 	 
+                        	<tr>
+                            	<td></td>
+                                <td></td>
+                                <td>&nbsp;&nbsp;Closing Balance</td>
+                                <td></td>
+                                <td></td>
+                                <td class="tar">0.00&nbsp;&nbsp;</td>
+                            s</tr>
+                              		<tr>
+                		<td align="center">20</td>
+                    	<td colspan="5">&nbsp;&nbsp;8200-170-00&nbsp;&nbsp;&nbsp;&nbsp;
+						Water</td>
+                		<!-- td class="tar"><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined property: stdClass::$aset_book_value</p>
+<p>Filename: reports/accountsummary_excel.php</p>
+<p>Line Number: 23</p>
+
+</div>0.00</td -->
+                	</tr>
+                 	 
+                        	<tr>
+                            	<td></td>
+                                <td></td>
+                                <td>&nbsp;&nbsp;Closing Balance</td>
+                                <td></td>
+                                <td></td>
+                                <td class="tar">0.00&nbsp;&nbsp;</td>
+                            s</tr>
+                              		<tr>
+                		<td align="center">21</td>
+                    	<td colspan="5">&nbsp;&nbsp;8200-190-30&nbsp;&nbsp;&nbsp;&nbsp;
+						Wages & Salaries </td>
+                		<!-- td class="tar"><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined property: stdClass::$aset_book_value</p>
+<p>Filename: reports/accountsummary_excel.php</p>
+<p>Line Number: 23</p>
+
+</div>0.00</td -->
+                	</tr>
+                 	 
+                        	<tr>
+                            	<td></td>
+                                <td></td>
+                                <td>&nbsp;&nbsp;Closing Balance</td>
+                                <td></td>
+                                <td></td>
+                                <td class="tar">0.00&nbsp;&nbsp;</td>
+                            s</tr>
+                              		<tr>
+                		<td align="center">22</td>
+                    	<td colspan="5">&nbsp;&nbsp;8400-000-00&nbsp;&nbsp;&nbsp;&nbsp;
+						Discounts Given</td>
+                		<!-- td class="tar"><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined property: stdClass::$aset_book_value</p>
+<p>Filename: reports/accountsummary_excel.php</p>
+<p>Line Number: 23</p>
+
+</div>0.00</td -->
+                	</tr>
+                 	 
+                        	<tr>
+                            	<td></td>
+                                <td></td>
+                                <td>&nbsp;&nbsp;Closing Balance</td>
+                                <td></td>
+                                <td></td>
+                                <td class="tar">0.00&nbsp;&nbsp;</td>
+                            s</tr>
+                              		<tr>
+                		<td align="center">23</td>
+                    	<td colspan="5">&nbsp;&nbsp;8700-000-00&nbsp;&nbsp;&nbsp;&nbsp;
+						Exchange Difference</td>
+                		<!-- td class="tar"><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined property: stdClass::$aset_book_value</p>
+<p>Filename: reports/accountsummary_excel.php</p>
+<p>Line Number: 23</p>
+
+</div>0.00</td -->
+                	</tr>
+                 	 
+                        	<tr>
+                            	<td></td>
+                                <td></td>
+                                <td>&nbsp;&nbsp;Closing Balance</td>
+                                <td></td>
+                                <td></td>
+                                <td class="tar">0.00&nbsp;&nbsp;</td>
+                            s</tr>
+                  		</tbody>
+	</table>                                         

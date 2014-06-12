@@ -1,0 +1,1102 @@
+	<table border="1" cellpadding="1" cellspacing="0" width="100%">
+                	<thead>
+                    <tr>
+            			<th style="display:none"></th>
+            			<th>Account Number</th>
+            			<th class="tac">Period 1</th>
+            			<th class="tac">Period 2</th>
+            			<th class="tac">Period 3</th>
+            			<th class="tac">Period 4</th>
+            			<th class="tac">Period 5</th>
+            			<th class="tac">Period 6</th>
+            			<th class="tac">Period 7</th>
+            			<th class="tac">Period 8</th>
+            			<th class="tac">Period 9</th>
+            			<th class="tac">Period 10</th>
+            			<th class="tac">Period 11</th>
+            			<th class="tac">Period 12</th>
+            			<th class="tac">Total</th>
+            		</tr>
+        			</thead>
+       				 <tbody>
+					                                                                                                        <tr>
+            						<td style="display:none">1</td>
+                					<td>8100-000-00 [ Administration Expenses ]</td>
+                        				                        									
+                        			<td class="tar">926</td>
+                        				                        									
+                        			<td class="tar">926</td>
+                        				                        									
+                        			<td class="tar">926</td>
+                        				                        									
+                        			<td class="tar">926</td>
+                        				                        									
+                        			<td class="tar">926</td>
+                        				                        									
+                        			<td class="tar">926</td>
+                        				                        									
+                        			<td class="tar">926</td>
+                        				                        									
+                        			<td class="tar">926</td>
+                        				                        									
+                        			<td class="tar">926</td>
+                        				                        									
+                        			<td class="tar">926</td>
+                        				                        									
+                        			<td class="tar">926</td>
+                        				                        									
+                        			<td class="tar">925</td>
+                        				                                                                        			<td class="tar">11111</td>
+                        			</tr>
+									
+						                                                        <tr>
+            						<td style="display:none">14</td>
+                					<td>8100-111-00 [ Accounting Fees ]</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">100</td>
+                        				                                                                        			<td class="tar">100</td>
+                        			</tr>
+									
+						                                                        <tr>
+            						<td style="display:none">27</td>
+                					<td>8100-112-00 [ Legal Fees ]</td>
+                        				                        									
+                        			<td class="tar">200</td>
+                        				                        									
+                        			<td class="tar">3000</td>
+                        				                        									
+                        			<td class="tar">10000000</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">1000</td>
+                        				                                                                        			<td class="tar">10004200</td>
+                        			</tr>
+									
+						                                                        <tr>
+            						<td style="display:none">40</td>
+                					<td>8100-140-00 [ Dues & Subscriptions ]</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                                                                        			<td class="tar">0</td>
+                        			</tr>
+									
+						                                                        <tr>
+            						<td style="display:none">53</td>
+                					<td>8100-150-00 [ Office Supplies ]</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                                                                        			<td class="tar">0</td>
+                        			</tr>
+									
+						                                                        <tr>
+            						<td style="display:none">66</td>
+                					<td>8100-160-00 [ Freight ]</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                                                                        			<td class="tar">0</td>
+                        			</tr>
+									
+						                                                        <tr>
+            						<td style="display:none">79</td>
+                					<td>8100-170-00 [ Late Payment Charges ]</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                                                                        			<td class="tar">0</td>
+                        			</tr>
+									
+						                                                        <tr>
+            						<td style="display:none">92</td>
+                					<td>8100-190-00 [ Advertising & Promotion Exp ]</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                                                                        			<td class="tar">0</td>
+                        			</tr>
+									
+						                                                        <tr>
+            						<td style="display:none">118</td>
+                					<td>8100-190-20 [ In-store Promotions ]</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                                                                        			<td class="tar">0</td>
+                        			</tr>
+									
+						                                                        <tr>
+            						<td style="display:none">131</td>
+                					<td>8100-200-00 [ Depreciation Expense ]</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                                                                        			<td class="tar">0</td>
+                        			</tr>
+									
+						                                                        <tr>
+            						<td style="display:none">144</td>
+                					<td>8100-400-00 [ GST- Non Claimable ]</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                                                                        			<td class="tar">0</td>
+                        			</tr>
+									
+						                                                        <tr>
+            						<td style="display:none">157</td>
+                					<td>8100-500-00 [ Service Tax ]</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                                                                        			<td class="tar">0</td>
+                        			</tr>
+									
+						                                                        <tr>
+            						<td style="display:none">170</td>
+                					<td>8200-000-00 [ Operation Expenses ]</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                                                                        			<td class="tar">0</td>
+                        			</tr>
+									
+						                                                        <tr>
+            						<td style="display:none">183</td>
+                					<td>8200-110-00 [ Cleaning	Expenses ]</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                                                                        			<td class="tar">0</td>
+                        			</tr>
+									
+						                                                        <tr>
+            						<td style="display:none">196</td>
+                					<td>8200-120-00 [ Postage & Delivery ]</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                                                                        			<td class="tar">0</td>
+                        			</tr>
+									
+						                                                        <tr>
+            						<td style="display:none">209</td>
+                					<td>8200-130-00 [ Printing ]</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                                                                        			<td class="tar">0</td>
+                        			</tr>
+									
+						                                                        <tr>
+            						<td style="display:none">222</td>
+                					<td>8200-140-00 [ Rent ]</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                                                                        			<td class="tar">0</td>
+                        			</tr>
+									
+						                                                        <tr>
+            						<td style="display:none">235</td>
+                					<td>8200-150-00 [ Store Supplies ]</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                                                                        			<td class="tar">0</td>
+                        			</tr>
+									
+						                                                        <tr>
+            						<td style="display:none">248</td>
+                					<td>8200-160-00 [ Telephone ]</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                                                                        			<td class="tar">0</td>
+                        			</tr>
+									
+						                                                        <tr>
+            						<td style="display:none">261</td>
+                					<td>8200-170-00 [ Water ]</td>
+                        				                        									
+                        			<td class="tar">1667</td>
+                        				                        									
+                        			<td class="tar">1667</td>
+                        				                        									
+                        			<td class="tar">1667</td>
+                        				                        									
+                        			<td class="tar">1667</td>
+                        				                        									
+                        			<td class="tar">1667</td>
+                        				                        									
+                        			<td class="tar">1667</td>
+                        				                        									
+                        			<td class="tar">1667</td>
+                        				                        									
+                        			<td class="tar">1667</td>
+                        				                        									
+                        			<td class="tar">1667</td>
+                        				                        									
+                        			<td class="tar">1667</td>
+                        				                        									
+                        			<td class="tar">1667</td>
+                        				                        									
+                        			<td class="tar">1663</td>
+                        				                                                                        			<td class="tar">20000</td>
+                        			</tr>
+									
+						                                                        <tr>
+            						<td style="display:none">274</td>
+                					<td>8200-180-00 [ Shrinkage/Spoilage ]</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                                                                        			<td class="tar">0</td>
+                        			</tr>
+									
+						                                                        <tr>
+            						<td style="display:none">287</td>
+                					<td>8200-190-00 [ Employment Expenses ]</td>
+                        				                        									
+                        			<td class="tar">20833</td>
+                        				                        									
+                        			<td class="tar">20833</td>
+                        				                        									
+                        			<td class="tar">20833</td>
+                        				                        									
+                        			<td class="tar">20833</td>
+                        				                        									
+                        			<td class="tar">20833</td>
+                        				                        									
+                        			<td class="tar">20833</td>
+                        				                        									
+                        			<td class="tar">20833</td>
+                        				                        									
+                        			<td class="tar">20833</td>
+                        				                        									
+                        			<td class="tar">20833</td>
+                        				                        									
+                        			<td class="tar">20833</td>
+                        				                        									
+                        			<td class="tar">20833</td>
+                        				                        									
+                        			<td class="tar">20837</td>
+                        				                                                                        			<td class="tar">250000</td>
+                        			</tr>
+									
+						                                                        <tr>
+            						<td style="display:none">300</td>
+                					<td>8200-190-10 [ Fringe Benefits Tax ]</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                                                                        			<td class="tar">0</td>
+                        			</tr>
+									
+						                                                        <tr>
+            						<td style="display:none">313</td>
+                					<td>8200-190-20 [ Staff Amenities  ]</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                                                                        			<td class="tar">0</td>
+                        			</tr>
+									
+						                                                        <tr>
+            						<td style="display:none">326</td>
+                					<td>8200-190-30 [ Wages & Salaries  ]</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                                                                        			<td class="tar">0</td>
+                        			</tr>
+									
+						                                                        <tr>
+            						<td style="display:none">339</td>
+                					<td>8200-190-40 [ Workers' Compensation ]</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                                                                        			<td class="tar">0</td>
+                        			</tr>
+									
+						                                                        <tr>
+            						<td style="display:none">352</td>
+                					<td>8200-190-50 [ Other Employment Expenses ]</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                                                                        			<td class="tar">0</td>
+                        			</tr>
+									
+						                                                        <tr>
+            						<td style="display:none">365</td>
+                					<td>8200-200-00 [ Uniforms & Laundry ]</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                                                                        			<td class="tar">0</td>
+                        			</tr>
+									
+						                                                        <tr>
+            						<td style="display:none">378</td>
+                					<td>8300-000-00 [ Interest & Bank Charges ]</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                                                                        			<td class="tar">0</td>
+                        			</tr>
+									
+						                                                        <tr>
+            						<td style="display:none">391</td>
+                					<td>8400-000-00 [ Discounts Given ]</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                                                                        			<td class="tar">0</td>
+                        			</tr>
+									
+						                                                        <tr>
+            						<td style="display:none">404</td>
+                					<td>8410-000-00 [ Prompt Payment Discount ]</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                                                                        			<td class="tar">0</td>
+                        			</tr>
+									
+						                                                        <tr>
+            						<td style="display:none">417</td>
+                					<td>8500-000-00 [ Zakat Expense ]</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                                                                        			<td class="tar">0</td>
+                        			</tr>
+									
+						                                                        <tr>
+            						<td style="display:none">443</td>
+                					<td>8600-000-00 [ Bad Debt Expense ]</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                                                                        			<td class="tar">0</td>
+                        			</tr>
+									
+						                                                        <tr>
+            						<td style="display:none">456</td>
+                					<td>8700-000-00 [ Exchange Difference ]</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                                                                        			<td class="tar">0</td>
+                        			</tr>
+									
+						                                                        <tr>
+            						<td style="display:none">430</td>
+                					<td>8600-000-00 [ Income Tax Expense ]</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                                                                        			<td class="tar">0</td>
+                        			</tr>
+									
+						                                                        <tr>
+            						<td style="display:none">105</td>
+                					<td>8100-190-10 [ Advertising ]</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        									
+                        			<td class="tar">0</td>
+                        				                        			<td class="tar">0</td>
+                        			</tr>
+			                     </tbody>
+                     </table>

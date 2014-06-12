@@ -1,0 +1,52 @@
+
+<table  style="width:80%; margin-top:100px; margin:auto;">
+<tbody >
+  
+     <tr><td colspan="2">
+      		  <table class="table" cellpadding="0" cellspacing="0" width="80%">
+          
+                <thead>
+                    <tr style="background:url(http://192.168.1.173/iaccounts/img/rptPaymentAdvice.png)">
+                    <th>S.no</th>
+                    <th></th>
+                    <th>Supplier Invoice No</th>
+                    <th>amount () </th>
+                    
+                    </tr>
+                </thead>
+                <tbody>
+                          <tr>
+                <td>1</td>
+                <td>2014-05-22</td>
+                <td>sd</td>
+                <td style=" text-align:right;">100.00</td>
+            </tr>
+            <tr><td style='text-align:right;' colspan='4'>Total Amount :  100.00</td></tr>            	<tr>
+                	<td colspan="4">
+                     <br /> <br /> <br /> <br />
+                    	 <p style="text-align: right; font-size:8px; font-weight:500;"> Prepared by &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        Aprproved By&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       Receive By</p>
+                         <br />
+                          <br />
+                    	<p>
+                        
+                            <p style="text-align: right; font-weight: 600; font-size: 8px;">SYSTEM GENERATED NO SIGNATURE REQUIRRED</p>
+                            <hr style="margin-top:-10px; font-size:20px; font-weight:800;" />
+                        	    <div class="row-fluid">
+                          <div class="span4">06/04/2014 9:52:41</div>
+                          <div class="span4">Private and Confidential</div>
+                          <div class="span4"></div>
+    </div>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="tdPrint">
+                <td align="center" colspan="4">
+        	<button title="Print" class="btn btn-primary Print" onclick="do_print()" type="button" name="Print"><i class="icon-print"></i></button> <button title="Download" class="btn btn-primary EXCEL" onclick="getExcelFile()" type="button" name="EXCEL"><i class="icon-download"></i></button>&nbsp;&nbsp; <button title="Close" class="btn btn-warning Close" onclick="javascript:window.close();" type="button" name="Close"><i class="icon-off"></i></button>        </td>
+                </tr>
+             </tbody>
+    		</table>    
+     </td></tr>
+   
+</tbody>
+</table>
+  

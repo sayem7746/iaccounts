@@ -1,0 +1,57 @@
+body{background: #F5F5F5;}
+    body #header{
+        border-top: 1px solid #5F5F5F; border-bottom: 1px solid #FF9900;
+        background-color: #393939;
+        background: -moz-linear-gradient(top,#f7c756,#FF9900);
+        background: -ms-linear-gradient(top,#f7c756,#FF9900);
+        background: -webkit-gradient(linear,0 0,0 100%,from(#f7c756),to(#FF9900));
+        background: -webkit-linear-gradient(top,#f7c756,#FF9900);
+        background: -o-linear-gradient(top,#f7c756 0,#FF9900 100%);
+        background: linear-gradient(top,#f7c756 0,#FF9900 0);                               
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f7c756',endColorstr='#111316',GradientType=0);
+        -moz-box-shadow: 0 0 2px 1px #FF9900;
+        -webkit-box-shadow: 0 0 2px 1px #FF9900;
+        box-shadow: 0 0 2px 1px #FF9900;} 
+
+    body #header .buttons .item .btn-primary,
+    body .btn.btn-primary,
+    body .ui-dialog .ui-dialog-buttonpane button{color: #ffffff;
+                                     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+                                     background-color: #363636;
+                                     background-image: -moz-linear-gradient(top, #444444, #222222);
+                                     background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#444444), to(#222222));
+                                     background-image: -webkit-linear-gradient(top, #444444, #222222);
+                                     background-image: -o-linear-gradient(top, #444444, #222222);
+                                     background-image: linear-gradient(to bottom, #444444, #222222);
+                                     background-repeat: repeat-x;
+                                     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff444444', endColorstr='#ff222222', GradientType=0);
+                                     border-color: #222222 #222222 #000000;
+                                     border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+                                     filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);}
+    body .btn.btn-primary:hover,body .btn.btn-primary:active,body .btn.btn-primary:focus,body .btn.btn-primary.active,
+    body .ui-dialog .ui-dialog-buttonpane button:hover, body .ui-dialog .ui-dialog-buttonpane button:active,body .ui-dialog .ui-dialog-buttonpane button:focus{color:#fff!important;background-color:#222!important}
+    body #content{background:url(../img/themes/dark/content_line.png) left top repeat-y}
+    body a:hover,body table.list .name:hover,body #content .block .block_info .name:hover,body #sidebar .user .info .name a:hover,body #content .block .content.faq .item .title:hover{color:#222}
+    body #sidebar,body #header .buttons .item .popup{-moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; border-color: #f7c756;}
+    body #sidebar .navigation{border-top-color:#f7c756}
+    body #sidebar .navigation > li > a{color:#333;border-left:1px solid #f7c756;border-bottom:1px solid #f7c756;background:#ffcd45}
+    body #sidebar .navigation > li > ul{border-color: #f7c756;}
+    body #sidebar .navigation > li.openable > a{background:url(../img/themes/dark/nav_arrow.png) 195px 13px no-repeat #ffcd45}
+    body #sidebar .navigation > li > ul > li.openable > a{background-image:url(../img/themes/dark/nav_arrow.png)}
+    body #sidebar .navigation li.active > a{border-right:3px solid #AAA}
+    body #sidebar .navigation > li > a:hover,body #sidebar .navigation > li.active > a{background-color:#f7d179}
+    body #content .block .head,body #content .block .content,body #content .block .footer,body #header .buttons .item .popup .head,body #header .buttons .item .popup .footer{background-color:#EAEAEA;border-color:#D5D5D5}
+    body #content .block .content{background-color:#FFF}
+    body #content .block .head .buttons li a{border-left-color:#D5D5D5}
+    body #content .block .head .buttons li a:hover{background:#F9F9F9}
+    body .button:hover{background-color:#F9F9F9}
+    body .mCSB_scrollTools .mCSB_draggerRail{background:rgba(0,0,0,0.7)}
+    body .invoice .highlight,body .table-sorting .paginate_active{background:#222; border-color: #222;}
+    body .ui-dialog{border-color: #222;}
+    body #content > .wrap > .head,body .button{background-color:#EAEAEA;border-color:#D5D5D5}
+    body #content > .wrap > .head .info h1,body a,body #content .block .boxes li,body .messages .item .info .name,body #sidebar .user .info .name a,body table.list .name,body ul.list_simple.dates li .date,body #content .block .block_info .name,body #content .block .content.faq .item .title,body .btn-link,body #content .block .head h2,body .ui-accordion .ui-accordion-header,body .block .content.tabs .ui-tabs-nav li.ui-state-default .ui-tabs-anchor,body #header .buttons .item .popup .head h2{color:#333}
+    body #header .buttons .item .popup,body #content .search input[type=text],body #content .search button,body textarea,body input,body select,body .button .info{border-color:#D5D5D5}
+    body #sidebar .navigation > li.openable.open > a,body #sidebar .navigation > li > ul > li.openable.open > a{background-image:url(../img/themes/dark/nav_arrow_a.png)}
+    body a[class^='btn-']{color: #FFF;}
+    body #scrollUp,body .ui-dialog .ui-widget-header,body .modal .modal-header{background: #333;}
+        body #scrollUp:hover{background: #000;}        

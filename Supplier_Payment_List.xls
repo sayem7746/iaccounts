@@ -1,0 +1,125 @@
+	<table border="1" cellpadding="1" cellspacing="0" width="100%">
+		<thead>
+		<tr>
+			<th class="tac">#</th>
+			<th>Supplier Name</th>
+			<th> Payment Voucher No</th>
+			<th>Payment Date</th>
+			<th>Amount Paid</th>               
+		</tr>
+		</thead>
+		<tbody>
+	            	<tr>
+                	<td>1</td>
+                	
+                	<td>ahmad albab sdn bhd</td>
+                	<td>PP20140602[00000059]</td>
+                    <td class="tac">02-06-2014</td>
+                    <td>1</td>
+                </tr>
+                        	<tr>
+                	<td>2</td>
+                	
+                	<td>ahmad albab sdn bhd</td>
+                	<td>PP20140602[00000060]</td>
+                    <td class="tac">02-06-2014</td>
+                    <td>3</td>
+                </tr>
+                        	<tr>
+                	<td>3</td>
+                	
+                	<td>ahmad albab sdn bhd</td>
+                	<td>PP20140602[00000061]</td>
+                    <td class="tac">02-06-2014</td>
+                    <td>3</td>
+                </tr>
+                        	<tr>
+                	<td>4</td>
+                	
+                	<td>ahmad albab sdn bhd</td>
+                	<td>PP20140602[00000062]</td>
+                    <td class="tac">02-06-2014</td>
+                    <td>1</td>
+                </tr>
+                        	<tr>
+                	<td>5</td>
+                	
+                	<td>ahmad albab sdn bhd</td>
+                	<td>PP20140602[00000063]</td>
+                    <td class="tac">02-06-2014</td>
+                    <td>1</td>
+                </tr>
+                        	<tr>
+                	<td>6</td>
+                	
+                	<td>ahmad albab sdn bhd</td>
+                	<td>PP20140602[00000064]</td>
+                    <td class="tac">02-06-2014</td>
+                    <td>1</td>
+                </tr>
+                        	<tr>
+                	<td>7</td>
+                	
+                	<td>ahmad albab sdn bhd</td>
+                	<td>PP20140602[00000065]</td>
+                    <td class="tac">02-06-2014</td>
+                    <td>2</td>
+                </tr>
+                        	<tr>
+                	<td>8</td>
+                	
+                	<td>ahmad albab sdn bhd</td>
+                	<td>PP20140602[00000066]</td>
+                    <td class="tac">02-06-2014</td>
+                    <td>12</td>
+                </tr>
+                        	<tr>
+                	<td>9</td>
+                	
+                	<td>ahmad albab sdn bhd</td>
+                	<td>PP20140602[00000067]</td>
+                    <td class="tac">02-06-2014</td>
+                    <td>12</td>
+                </tr>
+                        	<tr>
+                	<td>10</td>
+                	
+                	<td>ahmad albab sdn bhd</td>
+                	<td>PP20140602[00000068]</td>
+                    <td class="tac">02-06-2014</td>
+                    <td>11</td>
+                </tr>
+                        	<tr>
+                	<td>11</td>
+                	
+                	<td>ahmad albab sdn bhd</td>
+                	<td>PP20140602[00000069]</td>
+                    <td class="tac">02-06-2014</td>
+                    <td>0</td>
+                </tr>
+                        	<tr>
+                	<td>12</td>
+                	
+                	<td>ahmad albab sdn bhd</td>
+                	<td>PP20140602[00000070]</td>
+                    <td class="tac">02-06-2014</td>
+                    <td>1</td>
+                </tr>
+                        	<tr>
+                	<td>13</td>
+                	
+                	<td>ahmad albab sdn bhd</td>
+                	<td>PP20140602[00000071]</td>
+                    <td class="tac">02-06-2014</td>
+                    <td>2</td>
+                </tr>
+                        	<tr>
+                	<td>14</td>
+                	
+                	<td>ahmad albab sdn bhd</td>
+                	<td>PP20140602[00000072]</td>
+                    <td class="tac">02-06-2014</td>
+                    <td>2</td>
+                </tr>
+            		</tbody>
+	</table>

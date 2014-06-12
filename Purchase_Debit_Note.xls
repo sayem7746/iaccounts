@@ -1,0 +1,148 @@
+
+	<table border="0" cellpadding="1" cellspacing="0" width="100%">
+		<thead>
+		<tr>
+			<th width="20%"></th>
+			<th width="20%"></th>
+			<th width="20%"></th>
+			<th width="20%"></th>
+			<th width="30%">Purchase Debit Note</th>               
+		</tr>
+        <tr>
+			<th></th>
+			<th></th>
+			<th>DEMO6161</th>
+			<th></th>
+			<th></th>               
+		</tr>
+        <tr>
+			<th></th>
+			<th></th>
+			<th>GST Reg No : f3423</th>
+			<th></th>
+			<th></th>               
+		</tr>
+		</thead>
+		<tbody>
+        <tr>
+        	<td class="tac">Syarikat Kontena Nasional</td>
+            <td></td>
+            <td></td>
+            <td colspan="2">Form No : PDN</td>
+        </tr>
+        <tr>
+        	<td width="20%" class="tac">alamat 1</td>
+            <td width="20%"></td>
+            <td width="20%"></td>
+            <td>Invoice No : A12345678</td>
+        </tr>
+        <tr>
+        	<td class="tac">alamat 2</td>
+            <td></td>
+            <td></td>
+            <td>Pur Invoice Date : 2014-06-02</td>
+        </tr>
+        <tr>
+        	<td class="tac">alamat 3</td>
+            <td></td>
+            <td></td>
+            <td>Pur Debit Note Date :</td>
+        </tr>
+        <tr>
+        	<td>,</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        </tbody>
+        </table>
+        <table border="0" cellpadding="1" cellspacing="0" width="100%">
+		<thead>
+        <tr>
+        	<th>S.No</th>
+            <th>Item Code</th>
+            <th>Item Name</th>
+            <th>Item Desc</th>
+            <th>Unit Price</th>
+            <th>Qty</th>
+            <th>Amt(Ex GST)</th>
+            <th>GST %</th>
+            <th>GST Amt</th>
+            <th>Amt(In GST)</th>
+        </tr>
+        </thead>
+        <tbody>
+	            	<tr>
+                	<td style="display:none" >1</td>	
+                	<td  class="tac">1</td>
+                	
+                	<td class="tac">331000100</td>
+                    <td class="tac">Plastic Chair - Blue</td>
+                    <td class="tac">331000100</td>
+                	<td class="tac">300</td>
+                    <td class="tac">1</td>
+                    <td class="tac">300</td>
+                    <td class="tac">6</td>
+                    <td class="tac">18</td>
+                    <td class="tac">318</td>
+                </tr>
+                        	<tr>
+                	<td style="display:none" >2</td>	
+                	<td  class="tac">2</td>
+                	
+                	<td class="tac">331000300</td>
+                    <td class="tac">Plastic Chair - White</td>
+                    <td class="tac">331000300</td>
+                	<td class="tac">450</td>
+                    <td class="tac">1</td>
+                    <td class="tac">450</td>
+                    <td class="tac">10</td>
+                    <td class="tac">45</td>
+                    <td class="tac">495</td>
+                </tr>
+                        <tr>
+        		<td></td>
+            	<td></td>
+            	<td></td>
+            	<td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+        	</tr>
+            <tr>
+        		<td></td>
+            	<td></td>
+            	<td></td>
+            	<td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td colspan="3" class="tar">Net Total : 				750</td>
+       	</tr>
+            <tr>
+        		<td></td>
+            	<td></td>
+            	<td></td>
+            	<td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td colspan="3" class="tar">GST Payable Total :                63</td>
+        	</tr>
+            <tr>
+        		<td></td>
+            	<td></td>
+            	<td></td>
+            	<td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Prepared By</td>
+                <td>Approved By</td>
+        	</tr>
+		</tbody>
+	</table>

@@ -1,0 +1,166 @@
+	<table border="1" cellpadding="1" cellspacing="0" width="100%">
+                	<thead>
+                    <tr>
+                        <th>Description</th>
+                        <th class="tac">Last Year</th>
+                        <th class="tac">This Year</th>
+            		</tr>
+        			</thead>
+       				 <tbody>
+			  			                	  						                				  											            								<tr>
+                								<td colspan="3"><strong>Fixed Assets</strong></td>
+                							</tr>
+                                				                                               
+			            		                                               
+			            		                                               
+			            		                                               
+			            		                                               
+			            		                                                   								<tr>
+                								<td>200020010 [ Manufacturing Equipment at Cost ]</td>
+                								<td class="tar">0</td>
+                								<td class="tar">100000</td>
+                							</tr>
+                                                                                                                                                                                                                                                                                                                    
+			            		                                               
+			            		                                               
+			            		                                               
+			            		                                               
+			            		                                               
+			            		                                               
+			            		                                                   								<tr>
+                								<td>200040020 [ Office Equipment Accum Dep'n ]</td>
+                								<td class="tar">0</td>
+                								<td class="tar">-20000</td>
+                							</tr>
+                                                                                                                                                                                                                                                                                                                    
+			            		                                               
+			            		                                               
+			            		                                               
+			            		            					<tr>
+                					<td>Fixed Assets Sub Total</td>
+                					<td class="tar">0</td>
+                					<td class="tar">80000</td>
+                				</tr>
+			            		  											            								<tr>
+                								<td colspan="3"><strong>Others Assets</strong></td>
+                							</tr>
+                                				            					<tr>
+                					<td>Others Assets Sub Total</td>
+                					<td class="tar">0</td>
+                					<td class="tar">0</td>
+                				</tr>
+			            		  											            								<tr>
+                								<td colspan="3"><strong>Current Assets</strong></td>
+                							</tr>
+                                				                                                   								<tr>
+                								<td>210000000 [ Trade Receivable ]</td>
+                								<td class="tar">0</td>
+                								<td class="tar">151800</td>
+                							</tr>
+                                                                                                                                                                                                                                                                                                                    
+			            		                                               
+			            		                                                   								<tr>
+                								<td>220010000 [ Bank ]</td>
+                								<td class="tar">0</td>
+                								<td class="tar">941750</td>
+                							</tr>
+                                                                                                                                                                                                                                                                                                                    
+			            		                                               
+			            		                                               
+			            		                                               
+			            		                                               
+			            		                                               
+			            		                                               
+			            		                                               
+			            		                                               
+			            		                                               
+			            		                                                   								<tr>
+                								<td>260010000 [ GST Input Tax ]</td>
+                								<td class="tar">0</td>
+                								<td class="tar">600</td>
+                							</tr>
+                                                                                                                                                                                                                                                                                                                    
+			            		                                               
+			            		                                               
+			            		            					<tr>
+                					<td>Current Assets Sub Total</td>
+                					<td class="tar">0</td>
+                					<td class="tar">1094150</td>
+                				</tr>
+			            		                				            					<tr>
+                					<td>Assets Sub Total</td>
+                					<td class="tar">0</td>
+                					<td class="tar">1174150</td>
+                				</tr>
+            		  						            					<tr>
+                					<td colspan="3"><strong>Current Liabilities</strong></td>
+                				</tr>
+                                				                				                                                   								<tr>
+                								<td>300000000 [ Trade Payable ]</td>
+                								<td class="tar">0</td>
+                								<td class="tar">-50600</td>
+                							</tr>
+                                                                                                                                                                                                                     			            		                                       			            		                                       			            		                                                   								<tr>
+                								<td>330010000 [ GST Output Tax ]</td>
+                								<td class="tar">0</td>
+                								<td class="tar">-1800</td>
+                							</tr>
+                                                                                                                                                                                                                     			            		                                       			            		                                       			            		                                       			            		                                       			            		                                       			            		                                       			            		                                       			            		                                       			            		                                       			            		                                       			            		            					<tr>
+                					<td>Current Liabilities Sub Total</td>
+                					<td class="tar">0</td>
+                					<td class="tar">-52400</td>
+                				</tr>
+            		                				            					<tr>
+                					<td><h4>Net Current Assets/(Liabilities) Total</h4></td>
+                					<td class="tar">0</td>
+                					<td class="tar">1121750</td>
+                				</tr>
+              			           	<tr>
+                	<td colspan="3"><h5>Capital/Retained Earnings</h5></td>
+                </tr>
+                                	                				                                                                                                                                            								<tr>
+                								<td>100000000 [ Owner's/Shareholder's capital ]</td>
+                								<td class="tar">0</td>
+                								<td class="tar">-1000000</td>
+                							</tr>
+                                                                                        			            		                                                                                                                                            								<tr>
+                								<td>120000000 [ Retained Earnings-Prior Year ]</td>
+                								<td class="tar">0</td>
+                								<td class="tar">0</td>
+                							</tr>
+                                                                                        			            		                                                                                                                                            								<tr>
+                								<td>130000000 [ Current Year Earnings ]</td>
+                								<td class="tar">0</td>
+                								<td class="tar">-121750</td>
+                							</tr>
+                                                                                        			            		            					<tr>
+                					<td><h4>Capital/Retained Earnings Total</h4></td>
+                					<td class="tar">0</td>
+                					<td class="tar">-1121750</td>
+                				</tr>
+              			           	<tr>
+                	<td colspan="3"><h5>Others Liabilities & Long Terms Liabilities</h5></td>
+                </tr>
+                                	  						            					<tr>
+                					<td colspan="3"><strong>Other Liabilites</strong></td>
+                				</tr>
+                                				                				                                       			            		            					<tr>
+                					<td>Other Liabilites Sub Total</td>
+                					<td class="tar">0</td>
+                					<td class="tar">0</td>
+                				</tr>
+            		  						            					<tr>
+                					<td colspan="3"><strong>Long-Term Liabilities</strong></td>
+                				</tr>
+                                				                				                                       			            		                                       			            		                                       			            		            					<tr>
+                					<td>Long-Term Liabilities Sub Total</td>
+                					<td class="tar">0</td>
+                					<td class="tar">0</td>
+                				</tr>
+            		                				            					<tr>
+                					<td><h4>Others Liabilities & Long Terms Liabilities Total</h4></td>
+                					<td class="tar">0</td>
+                					<td class="tar">0</td>
+                				</tr>
+                                 </tbody>
+                     </table>
