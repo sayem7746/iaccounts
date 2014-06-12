@@ -75,7 +75,7 @@
 				data: 'data='+data,
 				dataType: "html",
 				success: function(data) {
-					//location.reload();
+					location.reload();
 				}
 			});
 		});

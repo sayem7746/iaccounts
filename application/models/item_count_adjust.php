@@ -37,28 +37,40 @@ class Item_count_adjust extends CI_Model{
 				if(($required - $row->balanceItem) > 0 ){
 					$required = $required - $row->balanceItem;
 					$query = $this->db->where('ID',$row->ID)->update('comp_receive_item_detail',array('balanceItem'=>0));
-				}elseif(($required - $row->balanceItem) < 0 ){
+				}elseif(($required - $row->balanceItem) <= 0 ){
 					$query = $this->db->where('ID',$row->ID)->update('comp_receive_item_detail',array('balanceItem'=>($row->balanceItem - $required)));
 					$required = 0;
 					break;
 				}
 			}
-		}elseif($required < 0 && false){
+		}elseif($required < 0){
 			//Get Item received information
 			$query = $this->db
 				->select('ID,quantityReceived,balanceItem,createdTS')
 				->from('comp_receive_item_detail')
-				->order_by('createdTS','ASC')
-				->where(array('itemID'=>$itemID,'balanceItem !=' => 0))
+				->order_by('createdTS','DESC')
+				->where(array('itemID'=>$itemID))
 				->get();
 			
 			$prevItemRcv = $query->result();
 			print_r($prevItemRcv);
+			$required = -$required;
+			echo $required;			
 			
-			
-			exit();
+			foreach($prevItemRcv as $row){
+				if(($fillNeed = $row->quantityReceived - $row->balanceItem) > 0){
+					if($fillNeed < $required){
+						$required = $required - $fillNeed;
+						$query = $this->db->where('ID',$row->ID)->update('comp_receive_item_detail',array('balanceItem'=>$row->quantityReceived));
+					}else{
+						$query = $this->db->where('ID',$row->ID)->update('comp_receive_item_detail',array('balanceItem'=>$row->balanceItem+$required));
+						$required = 0;
+						break;
+					}
+				}
+			}
 		}else{
-			return;
+			return false;
 		}
 	}	
 	
