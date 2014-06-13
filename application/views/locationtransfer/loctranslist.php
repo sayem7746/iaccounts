@@ -134,20 +134,6 @@ function changeList(){
                                     </tr>
                                     <?php 
                                     endforeach;
-                                else:
-                                ?>
-                                    <tr class="itemList">
-                                        <td style="display:none" ></td>
-                                        <td class="tac">No data available</td>
-                                        <td class="tac"></td>
-                                        <td class="tac"></td>
-                                        <td class="tac"></td>
-                                        <td class="tac"></td>
-                                        <td class="tac"></td>
-                                        <td class="tac"></td>
-                                        <td></td>
-                                    </tr>	                         
-                                <?php
                                 endif;?>
                             	</tbody>         
                             </table>

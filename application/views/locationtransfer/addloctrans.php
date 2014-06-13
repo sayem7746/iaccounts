@@ -1,63 +1,70 @@
 <script>
 
 $(document).ready(function(){
-	$('select').select2();
+	//$('select').select2();
 	jQuery('.datepicker2').datepicker({
 			dateFormat : 'dd-mm-yy',
 			changeMonth : true,
 			changeYear : true
 			});
-
+	
+	//Validate form data
+	$('.submit').click(function(){
+		if($("#loctransfer").validationEngine('validate')){
+			return true;
+		}else{
+			return false;
+		}
+	});
+	
 	
 	//Add items to location transfer
 	var str;
-		//remove items from the table.
-		//jQuery()
-		//Add items to the table.
-		jQuery('body').on('click','.removeItm',function(){
-			jQuery('.itemTbl .itemList input:checked').parent().parent().remove();
-		}).on('click','#popupModal .addItems',function(){
-			var i = 0;
-			var str = '';
-			jQuery("#popupModal .itemCheck input").each(function(){
-				if(jQuery(this).attr('checked') == 'checked'){
-					if(!i)	str += jQuery(this).val(); 
-					else	  str += '-'+jQuery(this).val(); 
-					i++;	
-				}
-			});
+	//Add items to the table.
+	jQuery('body').on('click','.removeItm',function(){
+		jQuery('.itemTbl .itemList input:checked').parent().parent().remove();
+	}).on('click','#popupModal .addItems',function(){
+		var i = 0;
+		var str = '';
+		jQuery("#popupModal .itemCheck input").each(function(){
+			if(jQuery(this).attr('checked') == 'checked'){
+				if(!i)	str += jQuery(this).val(); 
+				else	  str += '-'+jQuery(this).val(); 
+				i++;	
+			}
+		});
 
-			// Ajax call to get item details
-			jQuery.ajax({
-				url: "<?php echo base_url(); ?>locationtransfer/get_items/item_ids/"+str,
-				async: false,
-				type: "GET",
-				data: "",
-				dataType: "html",
-				success: function(data) {
-					var obj = jQuery.parseJSON(data);
-					jQuery('.itemTbl .noItem,.itemTbl .itemList').remove();
-					if(obj[0].ID){
-						jQuery.each(obj,function(i,v){
-							var tempStr = '<tr class="itemList itemList'+v.ID+'">\
-							<td style="display:none" >'+v.ID+'</td>\
-							<td valign="middle"><input type="checkbox" checked="checked" name="itemList[]" value="'+v.ID+'" id="'+v.ID+'" /></td>\
-							<td class="tac">'+v.itemCode+'</td>\
-							<td>'+v.description+'</td>\
-							<td class="tac"><input class="input-small" type="text" value="" name="quantity[]" /></td>\
-							<td class="tac"><input class="input-small" type="text" value="" name="stock[]" /></td>\
-							</tr>';
-							jQuery('#loctransfer .itemTbl').append(tempStr);
-						});
-					}else{
-						var tempStr = '<tr class="itemList noItem">\
-										<td colspan="6">No Content available</td>\
-										</tr>';
-						jQuery('.itemTbl').append(tempStr);
-					}
+		// Ajax call to get item details
+		jQuery.ajax({
+			url: "<?php echo base_url(); ?>locationtransfer/get_items/item_ids/"+str,
+			async: false,
+			type: "GET",
+			data: "",
+			dataType: "html",
+			success: function(data) {
+				var obj = jQuery.parseJSON(data);
+				jQuery('.itemTbl .noItem,.itemTbl .itemList').remove();
+				if(obj[0].ID){
+					jQuery.each(obj,function(i,v){
+						var tempStr = '<tr class="itemList itemList'+v.ID+'">\
+						<td style="display:none" >'+v.ID+'</td>\
+						<td valign="middle"><input type="checkbox" checked="checked" name="itemList[]" value="'+v.ID+'" id="'+v.ID+'" /></td>\
+						<td class="tac">'+v.itemCode+'</td>\
+						<td>'+v.description+'</td>\
+						<td class="tac"><input class="input-small" type="text" value="" name="quantity[]" /></td>\
+						<td class="tac"><input class="input-small" type="text" value="" name="stock[]" /></td>\
+						</tr>';
+						jQuery('#loctransfer .itemTbl').append(tempStr);
+					});
+				}else{
+					var tempStr = '<tr class="itemList noItem">\
+									<td colspan="6">No Content available</td>\
+									</tr>';
+					jQuery('.itemTbl').append(tempStr);
 				}
-			});
-		});	        
+			}
+		});
+	});	        
 });
 </script>
 <div id="content">                        
@@ -94,24 +101,23 @@ $(document).ready(function(){
                     <div class="block" id="grid_block_1">
                         <div class="content">                 	
                             <div class="controls-row">
-                                <div class="span4"><?php echo $this->lang->line('fromLocation') ?></div>
+                                <div class="span4"><?php echo $this->lang->line('fromLocation') ?>*</div>
                                 <div class="span8">
                                     <?php
                                         $preselcat = '458';
-                                        $options[] = '--Please Select--';
                                         foreach($fromLocation as $row){
                                             $options[$row->fldid] = $row->code;
                                         }
-                                        $js='onChange="changeList(this)" class="input-large"';
+                                        $js=' class="validate[required] input-large"';
                                         echo form_dropdown('fromLocationID', $options, $preselcat, $js);
                                     ?>
                                 </div>                       
                             </div> 
                             <div class="controls-row">
-                                <div class="span4"><?php echo $this->lang->line('toLocation') ?></div>
+                                <div class="span4"><?php echo $this->lang->line('toLocation') ?>*</div>
                                 <div class="span8">
                                     <?php
-                                        $js='onChange="changeList(this)" class="input-large"';
+                                        $js='class="validate[required] input-large"';
                                         echo form_dropdown('toLocationID', $options, $preselcat, $js);
                                     ?>
                                 </div>                       
@@ -125,7 +131,7 @@ $(document).ready(function(){
                                         'name'=>'formNo',
                                         'id'=>'formNo',
                                         'style'=>'color: red;',
-                                        'class'=>'input-small validate[required,minSize[5],maxSize[10]]',); 
+                                        'class'=>'input-small',); 
                                     echo form_input($data, set_value($formNo));
                                     ?>
                                     <?php
@@ -136,7 +142,7 @@ $(document).ready(function(){
                                         'style'=>'',
                                         'disabled'=>'disabled',
                                         'placeholder'=>'0000',
-                                        'class'=>'input-small validate[required,minSize[5],maxSize[10]]',); 
+                                        'class'=>'input-small validate[required]',); 
                                     echo form_input($data);
                                     ?>
                                 </div>                       
@@ -148,18 +154,18 @@ $(document).ready(function(){
                     <div class="block" id="grid_block_1">	
                         <div class="content"> 
                             <div class="controls-row">
-                                <div class="span4"><?php echo $this->lang->line('movementType') ?></div>
+                                <div class="span4"><?php echo $this->lang->line('movementType') ?>*</div>
                                 <div class="span8">
-                                    <?php
+                                    <?php 
                                         $preselcat = '458';
                                         $options = array();
-                                        $options[] = '--Please Select--';
                                         foreach($itemCategory as $row){
                                             $options[$row->ID] = $row->name;
                                         }
-                                        $js='onChange="changeList(this)" class="input-large"';
-                                        echo form_dropdown('movementTypeID', $options, $preselcat, $js);
-                                    ?>
+                                        $js='class="validate[required] input-large"';
+                                        echo form_dropdown('movementTypeID', $options,$preselcat,$js);
+                                    
+									?>
                                 </div>                       
                             </div> 
                             <div class="controls-row">
@@ -171,21 +177,23 @@ $(document).ready(function(){
                                         'name' => 'selDateFrom',
                                         'id' => 'selDateFrom',
                                         'type' => 'text',
-                                        'class' => 'input-small datepicker2',);
-                                        $js='onChange="changeList()"';
+                                        'class' => 'validate[required] input-small datepicker2',);
+                                        $js='';
                                         echo form_input($data, date('d-m-Y'), $js);                                        
                                     ?>       
                                 </div>
                             </div>
                             <div class="controls-row">
-                                <div class="span4"><?php echo $this->lang->line('locTransMemo') ?></div>
+                                <div class="span4"><?php echo $this->lang->line('locTransMemo') ?>*</div>
                                 <div class="input-prepend span8">
                                     <?php
                                         $data = array(
-                                        'name' => 'memo',
-                                        'id' => 'memo',
-										'cols' => 18,
-										'rows' => 5);
+                                        'name' 	=> 'memo',
+                                        'id' 	=> 'memo',
+										'cols' 	=> 18,
+										'rows' 	=> 5,
+										'class'	=> 'validate[required]'	
+										);
                                         echo form_textarea($data);                                        
                                     ?>       
                                 </div>
@@ -238,12 +246,6 @@ $(document).ready(function(){
                                     </tr>
                                     <?php 
                                     endforeach;
-                                else:
-                                ?>
-                                <tr class="itemList noItem">
-                                    <td colspan="6">No Content available</td>
-                                </tr>	                         
-                                <?php
                                 endif;?>
                                      
                             </table>
@@ -254,9 +256,8 @@ $(document).ready(function(){
                                     <?php 
                                         $data = array(
                                                 'name'=>'postloctrans', 
-                                                'class'=>'btn btn-warning');
-                                        $js='onclick="postJournal()"';
-                                        echo form_submit($data,$this->lang->line('processTransfer'),$js);
+                                                'class'=>'btn btn-warning submit');
+                                        echo form_submit($data,$this->lang->line('processTransfer'));
                                         ?>
                                 </div>
                             </div>

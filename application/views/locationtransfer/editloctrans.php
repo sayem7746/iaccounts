@@ -17,7 +17,6 @@ $(document).ready(function(){
 	});
 	oTable.fnSort( [ [1,'asc'] ] );
 	
-	$('select').select2();
 	jQuery('.datepicker2').datepicker({
 			dateFormat : 'dd-mm-yy',
 			changeMonth : true,
@@ -67,7 +66,8 @@ $(document).ready(function(){
         <div class="content">      
             <div class="row-fluid">
                 <div class="alert alert-info">
-                    <strong><?php echo $this->lang->line('loctransform') ?></strong>
+                    <strong><?php echo $this->lang->line('loctransform'); ?></strong>
+                	<input type="hidden" name="locationTransferID" value="<?php echo $datatbls['transInfo'][0]->ID; ?>" />
                 </div>
             </div> 
             <!--Location transfer top form-->  
@@ -81,7 +81,6 @@ $(document).ready(function(){
                                 <div class="span8">
                                     <?php
                                         $preselect = $datatbls['transInfo'][0]->fromLocationID;
-                                        $options[] = '--Please Select--';
                                         foreach($fromLocation as $row){
                                             $options[$row->fldid] = $row->code;
                                         }
@@ -237,12 +236,6 @@ $(document).ready(function(){
                                     </tr>
                                     <?php 
                                     endforeach;
-                                else:
-                                ?>
-                                <tr class="itemList noItem">
-                                    <td colspan="6">No Content available</td>
-                                </tr>	                         
-                                <?php
                                 endif;?>
                             	</tbody>         
                             </table>
@@ -310,22 +303,23 @@ $(document).ready(function(){
 			var str = '';
 			var i = 0;
 			jQuery('.itemTbl .itemList input:checked').each(function(){
-				alert($(this).closest( "tr" ).find('listID').val());
-				if(i)	str = $(this).closest( "tr" ).find('listID').val();
-				else	str += ','+$(this).closest( "tr" ).find('listID').val();
+				if(!i)	str = $(this).closest( "tr" ).find('.listID').val();
+				else	str += ','+$(this).closest( "tr" ).find('.listID').val();
 				i++;
 			});
-			alert(str);
-			/*jQuery.ajax({
-				url: "<?php echo base_url(); ?>locationtransfer/remove-item/",
+			jQuery.ajax({
+				url: "<?php echo base_url(); ?>locationtransfer/removeitem/",
 				async: false,
-				type: "GET",
-				data: "",
+				type: "POST",
+				data: "itemID="+str,
 				dataType: "html",
 				success: function(data) {
+					if(data == 'success'){
+						jQuery('.itemTbl .itemList input:checked').parents('tr').remove();
+					}
 				}
-		    })*/
-			jQuery('.itemTbl .itemList input:checked').parent().parent().remove();
+		    })
+			
 		}).on('click','#popupModal .addItems',function(){
 			var i = 0;
 			var str = '';

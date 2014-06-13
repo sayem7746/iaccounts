@@ -73,7 +73,6 @@ class Location_transfer extends CI_Model{
 		$query1 = $this->db->get();
 		$data['transInfo'] = $query1->result();
 		
-		
 		//Transfer item detail
 		$this->db
 			->select('ld.*,item.itemCode,item.description')
@@ -83,9 +82,7 @@ class Location_transfer extends CI_Model{
 		
 		$query2 = $this->db->get();
 		$data['itemList'] = $query2->result();
-		
-		
-		if($query1->num_rows() >= 1 && $query2->num_rows() >= 1 ){
+		if($query1->num_rows() >= 1){
 			return $data;
 		}else{
 			return false;
@@ -112,10 +109,19 @@ class Location_transfer extends CI_Model{
 	}
 	
 	public function updateDetail($id,$data){
-		$this->db
+		$rows = 0;
+		$query = $this->db->select('ID')->from('comp_location_transfer_detail')->where('itemID',$id)->get();
+		if(empty($query->result())){
+			$query = $this->db->insert('comp_location_transfer_detail', $data);
+			$rows = $this->db->affected_rows();
+			
+		}else{
+			$this->db
 				->where('ID', $id)
 				->update('comp_location_transfer_detail', $data);
-		$rows = $this->db->affected_rows();
+			$rows = $this->db->affected_rows();
+		}
+		
 		
 		
 		if($rows >= 1){
@@ -135,6 +141,12 @@ class Location_transfer extends CI_Model{
 				->delete('comp_location_transfer');
 				
 		$this->db->where('locationTransferID', $id)
+				->delete('comp_location_transfer_detail');
+	}
+	
+	
+	public function removeItem($id){
+		$this->db->where('ID', $id)
 				->delete('comp_location_transfer_detail');
 	}
 

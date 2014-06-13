@@ -927,27 +927,27 @@ function refreshpurchaserlist(){
          	<div class="span3"><?php echo $this->lang->line('terms')?></div>
          	<div class="span8">
             	<div class="input-append">
-                <select id="term" onchange="getTermDescription(this)" class="input-medium validate[required]">
-				  <option></option>
-                   <?php
-					if($terms != ''){
-				 		foreach($terms as $row){
-					 ?>
-                     <option value="<?php echo $row->ID; ?>"><?php echo $row->termName; ?></option>
-			    <?php }} ?>
-                </select>
-                <div class="btn-group">
-            	<button class="btn btn-mini btn-primary dropdown-toggle" data-toggle="dropdown">
-                	<span class="i-arrow-down-2"></span>
-                </button>
-                  <ul class="dropdown-menu">
-                        <!-- dropdown menu links -->
-                        <li><a target="_blank" href="<?php echo base_url() ?>term/term_newform"  id="btnNewTer">
-                        <i class="icon-plus-sign"></i><?php echo $this->lang->line('addNewTerms')?></a></li>
-                        <li><a href="#" onclick="refreshTerms()"><i class="icon-refresh"></i><?php echo $this->lang->line('refreshlist')?></a>
-                        </li>
-              	</ul>
-             </div><!-- btn group -->
+                    <select id="term" onchange="getTermDescription(this)" class="input-medium validate[required]">
+                      <option></option>
+                       <?php
+                        if($terms != ''){
+                            foreach($terms as $row){
+                         ?>
+                         <option value="<?php echo $row->ID; ?>"><?php echo $row->termName; ?></option>
+                    <?php }} ?>
+                    </select>
+                    <div class="btn-group">
+                        <button class="btn btn-mini btn-primary dropdown-toggle" data-toggle="dropdown">
+                            <span class="i-arrow-down-2"></span>
+                        </button>
+                          <ul class="dropdown-menu">
+                                <!-- dropdown menu links -->
+                                <li><a target="_blank" href="<?php echo base_url() ?>term/term_newform"  id="btnNewTer">
+                                <i class="icon-plus-sign"></i><?php echo $this->lang->line('addNewTerms')?></a></li>
+                                <li><a href="#" onclick="refreshTerms()"><i class="icon-refresh"></i><?php echo $this->lang->line('refreshlist')?></a>
+                                </li>
+                        </ul>
+                    </div><!-- btn group -->
                 </div><!-- append -->
             </div><!-- span -->
             

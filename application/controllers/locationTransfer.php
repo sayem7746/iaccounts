@@ -21,7 +21,8 @@ class LocationTransfer extends CI_Controller {
 		$data['datatbls'] = $this->Location_transfer->get_loc_transfer_all(element('compID', $this->session->userdata('logged_in')));
 		
 		
-		$this->layouts->add_includes('js/datatables/jquery.dataTables.min.js');
+		$this->layouts->add_includes('js/datatables/jquery.dataTables.min.js')
+					->add_includes('js/validationengine/jquery.validationEngine.js');
 		$this->layouts->view('locationtransfer/loctranslist', array('latest' => 'sidebar/latest'), $data);
 	}
     
@@ -60,19 +61,20 @@ class LocationTransfer extends CI_Controller {
 			if($loctransId){
 				//Insert items for location transfer
 				$i = 0;
-				foreach($this->input->post('itemList') as $item){
-					$newloctransdetail = array(
-						'locationTransferID'	=> $loctransId, 
-						'itemID'	  	 	   => $item, 
-						'quantity'		     => $_POST['quantity'][$i],
-						'fromStock'			=> $_POST['stock'][$i],
-						'createdTS'	   		=> date('Y-m-d G:i:s',time())				
-					);
-				
-					$loctransDetailId = $this->Location_transfer->insertDetail($newloctransdetail);
-					$i++;
+				if(is_array($this->input->post('itemList'))){
+					foreach($this->input->post('itemList') as $item){
+						$newloctransdetail = array(
+							'locationTransferID'	=> $loctransId, 
+							'itemID'	  	 	   => $item, 
+							'quantity'		     => $_POST['quantity'][$i],
+							'fromStock'			=> $_POST['stock'][$i],
+							'createdTS'	   		=> date('Y-m-d G:i:s',time())				
+						);
+					
+						$loctransDetailId = $this->Location_transfer->insertDetail($newloctransdetail);
+						$i++;
+					}
 				}
-				
 				echo '<script>alert("Insert Data Success..");
 				window.location.replace("'.base_url().'/locationtransfer");
 				</script>';
@@ -105,7 +107,9 @@ class LocationTransfer extends CI_Controller {
 			//Gather all items		
 			$data['items'] = $this->ItemSetup_model->get_all();
 			
-			$this->layouts->add_includes('js/datatables/jquery.dataTables.min.js');
+			$this->layouts->add_includes('js/datatables/jquery.dataTables.min.js')
+						->add_includes('js/validationengine/languages/jquery.validationEngine-en.js')
+						->add_includes('js/validationengine/jquery.validationEngine.js');
 			$this->layouts->view('locationtransfer/addloctrans', array('latest' => 'sidebar/latest'), $data);
 		}
 	}
@@ -134,13 +138,13 @@ class LocationTransfer extends CI_Controller {
 			if($loctransId){
 				//Insert items for location transfer
 				$i = 0;
-				foreach($this->input->post('ID') as $item){
+				foreach($this->input->post('itemList') as $item){
 					$newloctransdetail = array( 
-						'quantity'		     => $_POST['quantity'][$i],
-						'fromStock'			=> $_POST['stock'][$i],
-						'createdTS'	   		=> date('Y-m-d G:i:s',time())				
+						'locationTransferID'=> $_POST['locationTransferID'],
+						'itemID'			=> $item,
+						'quantity'		    => $_POST['quantity'][$i],
+						'fromStock'			=> $_POST['stock'][$i],				
 					);
-					
 					$loctransDetailId = $this->Location_transfer->updateDetail($item,$newloctransdetail);
 					$i++;
 				}
@@ -155,7 +159,6 @@ class LocationTransfer extends CI_Controller {
 			}
 		}else{
 			$data['datatbls'] = $this->Location_transfer->get_loc_trans_by_id($this->uri->segment(3));
-			
 			
 			$this->load->library('layouts');
 			$this->load->helper('form');
@@ -172,6 +175,7 @@ class LocationTransfer extends CI_Controller {
 			// Gather predefined values of form
 			$data['itemCategory'] = $this->masterCode_model->get_all(array('masterID'=>20));
 			$data['fromLocation'] = $this->Location_transfer->location_byCompany(1);
+			
 			
 			// Gather Item according to location
 			$this->load->model('item/ItemSetup_model');
@@ -205,5 +209,15 @@ class LocationTransfer extends CI_Controller {
 		echo '<script>alert("Entry removed Successfully..");
 				window.location.replace("'.base_url().'/locationtransfer");
 				</script>';
+	}
+	
+	//Remove items from location
+	public function removeitem(){
+		$itemIDs = explode(',',$this->input->post('itemID'));
+		foreach($itemIDs as $row){
+			$this->Location_transfer->removeItem($row);	
+		}
+		echo "success";
+		exit();
 	}
 }
