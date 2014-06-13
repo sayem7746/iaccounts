@@ -10,28 +10,31 @@ $lang['titlelist'] = "Location Transfer List";
 $lang['update'] = "Update";
 
 //Add Location Transfer
-$lang['locTransMemo'] = "Memo";
 $lang['selectItems'] = "Select Items from the list";
 $lang['processTransfer'] = "Process Transfer";
-$lang['transferDate'] = "Date";
-$lang['movementType'] = "Movement Type";
-$lang['reference'] = "Reference";
 $lang['toLocation'] = "To Location";
-$lang['fromLocation'] = "From Location";
 $lang['loctransform'] = "Location Transfer";
+
+$lang['fromLocation'] = "From Location";
+$lang['toLocationID'] = "To Location ";
+$lang['reference'] = "Reference";
+$lang['movementType'] = "Movement Type";
+$lang['transferDate'] = "Date";
+$lang['locTransMemo'] = "Memo";
 $lang['fromStock'] = "From Stock";
 $lang['formNo'] = "Form No";
-$lang['dateTransfer'] = "Date Transfer";
-$lang['memo'] = "Memo";
 
-$lang['companyID'] = "Company ID";
-$lang['movementTypeID'] = "Movement Type";
-$lang['fromLocationID'] = "From Location";
-$lang['toLocationID'] = "To Location ";
+//From headers
+$lang['items'] = "Items";
 $lang['itemCode'] = "Item Code";
 $lang['itemDescription'] = "Item Description";
 $lang['quantity'] = "Quantity";
 $lang['stock'] = "Stock";
+
+$lang['addNewItem'] = "Add New Item";
+
+$lang['lastMessage']="Last Message!";
+$lang['noMessage']="No Message...";
 
 
 

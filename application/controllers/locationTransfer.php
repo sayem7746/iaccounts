@@ -39,6 +39,19 @@ class LocationTransfer extends CI_Controller {
 		echo json_encode($itemDetails);
 	}
 	
+	//Ajax get items
+	public function ajax_get_items(){
+		if($this->input->post('itemCode')){
+			$itemName = explode('-',$this->input->post('itemCode'));
+			$items = $this->Location_transfer->get_byID($itemName[0]);
+			echo json_encode($items);
+		}else{
+			echo 'No Data';
+		}
+		
+		exit();
+	}
+	
 	//Add location transfer
 	public function add(){
 		if($this->input->post('postloctrans')){
@@ -106,6 +119,7 @@ class LocationTransfer extends CI_Controller {
 			
 			//Gather all items		
 			$data['items'] = $this->ItemSetup_model->get_all();
+			$data['itemCodes'] = $this->getItemCodes($data['items']);
 			
 			$this->layouts->add_includes('js/datatables/jquery.dataTables.min.js')
 						->add_includes('js/validationengine/languages/jquery.validationEngine-en.js')
@@ -113,7 +127,20 @@ class LocationTransfer extends CI_Controller {
 			$this->layouts->view('locationtransfer/addloctrans', array('latest' => 'sidebar/latest'), $data);
 		}
 	}
-	
+	public function getItemCodes($items){
+		$JsonRecords = '[';
+		$i= 0;
+		 foreach($items as $row){
+			if(!$i){
+				$JsonRecords .= '&quot;'.$row->itemCode.'-'.$row->name.'&quot;';
+			}else{
+				$JsonRecords .= ', &quot;'.$row->itemCode.'-'.$row->name.'&quot;';
+			}
+			$i++;
+		}
+		 $JsonRecords .= ']';
+		 return $JsonRecords;
+	}
 	//Edit location transfer
 	
 	public function edit(){

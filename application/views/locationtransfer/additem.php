@@ -87,19 +87,19 @@ $(document).ready(function(){
                      </tbody>
                      </table>
 				</div><!-- content -->
-            <div class="footer">
-            	<div class="side fr">
-                	<div class="btn-group">
-                        <?php 
-							$data = array(
-									'name'=>'postjournal', 
-									'class'=>'btn btn-warning');
-							$js='onclick="postJournal()"';
-							echo form_submit($data,$this->lang->line('postjournal'),$js);
-							?>
+                <div class="footer">
+                    <div class="side fr">
+                        <div class="btn-group">
+                            <?php 
+                                $data = array(
+                                        'name'=>'postjournal', 
+                                        'class'=>'btn btn-warning');
+                                $js='onclick="postJournal()"';
+                                echo form_submit($data,$this->lang->line('postjournal'),$js);
+                                ?>
+                        </div>
                     </div>
-                </div>
-            </div>                                    
+                </div>                                    
 				</div><!-- block -->
 			</div><!-- span12 -->
 		</div><!-- row-fluid -->	

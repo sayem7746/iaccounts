@@ -18,54 +18,56 @@ $(document).ready(function(){
 	});
 	
 	
-	//Add items to location transfer
-	var str;
-	//Add items to the table.
-	jQuery('body').on('click','.removeItm',function(){
-		jQuery('.itemTbl .itemList input:checked').parent().parent().remove();
-	}).on('click','#popupModal .addItems',function(){
-		var i = 0;
-		var str = '';
-		jQuery("#popupModal .itemCheck input").each(function(){
-			if(jQuery(this).attr('checked') == 'checked'){
-				if(!i)	str += jQuery(this).val(); 
-				else	  str += '-'+jQuery(this).val(); 
-				i++;	
-			}
-		});
+	// function to add new item to the list
+	$('#addRow').click(function(){
+		if (!$("#itemcode").length) {
+			 $('<tr>'+
+				'<td class="span2" ><input type="text" id="itemcode" name="itemcode" onkeyup="getitem(this);" onchange="getitem(this);" data-source="<?php echo $itemCodes; ?>" data-items="4" data-provide="typeahead" class="span12"></td>'
+				+'<td class="span2"><input id="description" name="description"  type="text" class="span12 validate[required,maxSize[64]]" placeholder="Item Description"></td>'
+				+'<td class="span2"><input id="quantity" name="quantity" class="span12 validate[required]" type="text" placeholder="Quantity"></td>'
+				+'<td class="span1"><input id="stock" name="stock" class="span12 validate[required,custom[number]]" type="text" placeholder="Stock"></td>'
+				+'<td class="span1">'
+					+'<button class="btn btn-mini btn-primary saveItm" type="button">Save</button>'
+					+'<button id="btnCancel" class="btn btn-mini" type="button">Cancel</button>'
+				+'</td>'
+			+'</tr>'
+			  ).insertBefore( "#trInfos" );
+		}else{
+			msg (1,"alert","Please, do save the current details before addind new one");
+		}
+	});
+	
+	
+});
+//Alert messages
+function msg(n,type, message){
+	$("#msg_div"+n +" p").html(message);
+	$("#msg_div"+n).attr("class","alert " + type);
+}
 
+//Ajax item list gathering 
+function getitem(me){
+	var str = $(me).val();
+	if(str.match(/-/g)){
 		// Ajax call to get item details
 		jQuery.ajax({
-			url: "<?php echo base_url(); ?>locationtransfer/get_items/item_ids/"+str,
+			url: "<?php echo base_url(); ?>locationtransfer/ajax_get_items/",
 			async: false,
-			type: "GET",
-			data: "",
+			type: "POST",
+			data: "itemCode="+$(me).val(),
 			dataType: "html",
 			success: function(data) {
 				var obj = jQuery.parseJSON(data);
-				jQuery('.itemTbl .noItem,.itemTbl .itemList').remove();
+				//jQuery('.itemTbl .noItem,.itemTbl .itemList').remove();
 				if(obj[0].ID){
-					jQuery.each(obj,function(i,v){
-						var tempStr = '<tr class="itemList itemList'+v.ID+'">\
-						<td style="display:none" >'+v.ID+'</td>\
-						<td valign="middle"><input type="checkbox" checked="checked" name="itemList[]" value="'+v.ID+'" id="'+v.ID+'" /></td>\
-						<td class="tac">'+v.itemCode+'</td>\
-						<td>'+v.description+'</td>\
-						<td class="tac"><input class="input-small" type="text" value="" name="quantity[]" /></td>\
-						<td class="tac"><input class="input-small" type="text" value="" name="stock[]" /></td>\
-						</tr>';
-						jQuery('#loctransfer .itemTbl').append(tempStr);
-					});
-				}else{
-					var tempStr = '<tr class="itemList noItem">\
-									<td colspan="6">No Content available</td>\
-									</tr>';
-					jQuery('.itemTbl').append(tempStr);
+					$('#itemcode').val(obj[0].itemCode);
+					$('#description').val(obj[0].description);
+					msg (1,"alert","Please, do save the current details before addind new one");
 				}
 			}
 		});
-	});	        
-});
+	}
+}
 </script>
 <div id="content">                        
 <div class="wrap">
@@ -205,9 +207,55 @@ $(document).ready(function(){
             <!--Location transfer top form-->  
         </div>
         
+        <div class="row-fluid scRow">                            
+          <div class="span12 scCol">
+            <div class="block" id="grid_block_4">
+               <div class="head">
+                <h2><?php echo $this->lang->line('items')?></h2>
+                <ul class="buttons">
+                    <li><a class="block_toggle collapsed" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+                                <span class="i-arrow-down-3"></span></a></li>
+                </ul>                                        
+              </div><!-- head -->
+              <div class="content np">
+                      <table id="listDetails" cellpadding="0" cellspacing="0" width="100%">
+                            <thead>
+                                <tr>
+                                    <th style="display:none"></th>
+                                    <th class="tac"><?php echo $this->lang->line('itemCode')?></th>
+                                    <th class="tac"><?php echo $this->lang->line('itemDescription')?></th>
+                                    <th class="tac"><?php echo $this->lang->line('quantity')?></th>
+                                    <th class="tac"><?php echo $this->lang->line('stock')?></th>
+                                	<th class="tac"><?php echo $this->lang->line('action')?></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr id="trInfos">
+                                    <td colspan="11">
+                                        <div id="msg_div1" class="alert alert-info">
+                                          <h4><?php echo $this->lang->line('lastMessage')?></h4>
+                                          <p style="padding-top:10px;"><?php echo $this->lang->line('noMessage')?></p>
+                                      </div>
+                                  </td>
+                              </tr>
+                        </tbody>
+                      </table>
+                <div class="footer">
+                    <div class="side fr">
+                        <div class="btn-group">
+                        <button style="margin-right:6px;" onclick="$('#parchaseDetailForm').validationEngine('hide');" class="btn btn-mini" type="button" name="validat">Hide prompts</button>
+                        <button id="addRow" class="btn btn-mini btn-primary" type="button">
+                            <i class="icon-plus-sign"></i><?php echo $this->lang->line('addNewItem')?></button>
+                        </div><!-- btn group -->      
+                    </div><!-- side fr -->      
+                </div><!-- footer -->      
+              </div><!-- content -->
+            </div><!-- grid block 1-->
+          </div><!-- scCol -->
+        </div><!-- row-fluid scRow-->
+        
         <div class="content">
-            <div class="wrap">   
-                
+            <div class="wrap">
                 <div class="row-fluid">
                     <div class="span12">
                         <div class="block">

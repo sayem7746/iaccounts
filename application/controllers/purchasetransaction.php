@@ -93,7 +93,7 @@ class Purchasetransaction extends CI_Controller {
 			$this->load->model('Usermaster');
 			$data['records'] = $this->Usermaster->usermaster_all();
 			$this->layouts->add_includes('js/validationengine/languages/jquery.validationEngine-en.js')
-			->add_includes('js/validationengine/jquery.validationEngine.js');
+						->add_includes('js/validationengine/jquery.validationEngine.js');
 			$this->layouts->view('purchase/transactions/ap_purchaseinvoice', '', $data);
 	}
 

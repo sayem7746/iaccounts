@@ -59,6 +59,11 @@ class Location_transfer extends CI_Model{
 		}	
 	}
 	
+	//Gather item lists by item code
+	public function get_byID($id){
+		$query = $this->db->select('ID,itemCode,description')->from('item')->like('itemCode',$id)->get();
+		return $query->result();
+	}
 	
 	/**********************
 	-----------Edit--------
