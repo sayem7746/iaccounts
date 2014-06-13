@@ -22,7 +22,7 @@ $(document).ready(function(){
 	$('#addRow').click(function(){
 		if (!$("#itemcode").length) {
 			 $('<tr>'+
-				'<td class="span2" ><input type="text" id="itemcode" name="itemcode" onkeyup="getitem(this);" onchange="getitem(this);" data-source="<?php echo $itemCodes; ?>" data-items="4" data-provide="typeahead" class="span12"></td>'
+				'<td class="span2" ><input type="text" id="itemCode" name="itemcode" onkeyup="getitem(this);" onchange="getitem(this);" data-source="<?php echo $itemCodes; ?>" data-items="4" data-provide="typeahead" class="span12"></td>'
 				+'<td class="span2"><input id="description" name="description"  type="text" class="span12 validate[required,maxSize[64]]" placeholder="Item Description"></td>'
 				+'<td class="span2"><input id="quantity" name="quantity" class="span12 validate[required]" type="text" placeholder="Quantity"></td>'
 				+'<td class="span1"><input id="stock" name="stock" class="span12 validate[required,custom[number]]" type="text" placeholder="Stock"></td>'
@@ -37,6 +37,29 @@ $(document).ready(function(){
 		}
 	});
 	
+	
+	//Item save
+	$('.saveItm').live('click',function(){
+		var me = $(this).parents('tr');
+		if($("#loctransfer").validationEngine('validate')){
+			jQuery.ajax({
+				url: "<?php echo base_url(); ?>locationtransfer/ajax_save_item/",
+				async: false,
+				type: "POST",
+				data: 	{
+							itemCode:$(me).find('#itemCode').val(),
+							description:$(me).find('#description').val(),
+							quantity:$(me).find('#quantity').val(),
+							stock:$(me).find('#stock').val(),
+						},
+				dataType: "html",
+				success: function(data) {
+					console.log(data);
+				}
+			});
+		}
+		return false;	
+	});
 	
 });
 //Alert messages
@@ -60,7 +83,7 @@ function getitem(me){
 				var obj = jQuery.parseJSON(data);
 				//jQuery('.itemTbl .noItem,.itemTbl .itemList').remove();
 				if(obj[0].ID){
-					$('#itemcode').val(obj[0].itemCode);
+					$('#itemCode').val(obj[0].itemCode);
 					$('#description').val(obj[0].description);
 					msg (1,"alert","Please, do save the current details before addind new one");
 				}
@@ -259,57 +282,18 @@ function getitem(me){
                 <div class="row-fluid">
                     <div class="span12">
                         <div class="block">
-                            <div class="head">
-                                <h2>
-                                    <a href="#popupModal" role="button" class="btn btn-primary" data-toggle="modal">Add Item</a>
-                                    <a href="javascript:" role="button" class="btn btn-danger removeItm" data-toggle="modal">Remove Item</a>
-                                </h2>
-                                <script>
-                                    jQuery(document).ready(function(){
-                                        jQuery('#popupModal').html(jQuery('#popupItemAdder').html());	
-                                    });
-                                </script>
-                            </div><!-- head -->
-                        <div class="content np table-sorting">
-                            <table cellpadding="0" cellspacing="0" width="100%" id="test" class="editable itemTbl">
-                                <tr>
-                                    <th style="display:none"></th>
-                                    <th class="tac">Select</th>
-                                    <th class="tac">Item Code</th>
-                                    <th class="tac">Item Description</th>
-                                    <th class="tac">Quantity</th>
-                                    <th class="tac">Stock</th>
-                                </tr>
-                                <?php $bil = 0; 
-                                if(isset($locItems)):
-                                    foreach($items as $item):
-                                    $bil++?>
-                                    <tr class="itemList itemList<?php $item->ID; ?>">
-                                        <td style="display:none" ><?php echo $item->ID; ?></td>
-                                        <td><input type="checkbox" name="itemList" value="<?php echo $item->ID; ?>" /></td>
-                                        <td class="tac"><?php echo $item->itemCode; ?></td>
-                                        <td><?php echo $item->description; ?></td>
-                                        <td class="tac"></td>
-                                        <td class="tac"></td>
-                                    </tr>
-                                    <?php 
-                                    endforeach;
-                                endif;?>
-                                     
-                            </table>
-                        </div><!-- content -->
-                        <div class="footer">
-                            <div class="side fr">
-                                <div class="btn-group">
-                                    <?php 
-                                        $data = array(
-                                                'name'=>'postloctrans', 
-                                                'class'=>'btn btn-warning submit');
-                                        echo form_submit($data,$this->lang->line('processTransfer'));
-                                        ?>
+                            <div class="footer">
+                                <div class="side fr">
+                                    <div class="btn-group">
+                                        <?php 
+                                            $data = array(
+                                                    'name'=>'postloctrans', 
+                                                    'class'=>'btn btn-warning submit');
+                                            echo form_submit($data,$this->lang->line('processTransfer'));
+                                            ?>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>                                    
+                            </div>                                    
                         </div><!-- block -->
                     </div><!-- span12 -->
                 </div><!-- row-fluid -->	

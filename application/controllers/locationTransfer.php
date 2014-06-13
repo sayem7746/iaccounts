@@ -141,6 +141,12 @@ class LocationTransfer extends CI_Controller {
 		 $JsonRecords .= ']';
 		 return $JsonRecords;
 	}
+	//Add items as tralsfer location
+	public function ajax_save_item(){
+		print_r($this->input->post());
+		exit();
+	}
+	
 	//Edit location transfer
 	
 	public function edit(){
